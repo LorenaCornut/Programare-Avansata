@@ -60,7 +60,7 @@ public class Lab1 {
         }
         this.n= Integer.parseInt(args[0]);
         this.k=Integer.parseInt(args[1]);
-        if(2*k>n){
+        if(k+k-1>n){
             System.out.println( "Nu putem avea o clica de mai mult de n noduri!");
             System.exit(-1);
         }
@@ -95,12 +95,21 @@ public class Lab1 {
             viz_s[I] = 0;
         }
         i = 1;
+        int ecl=0; //cate elemente sunt din clica
         while (i <= k) {
             int nr = rand.nextInt(n) + 1; /*aleg un nr random intre 1 si n*/
-            if (viz_c[nr] == 0 && viz_s[nr] == 0) { /* ma asigur ca nu iau ac nr de mai multe ori si ca nu e in clica*/
-                viz_s[nr] = 1;
-                stabil[i] = nr;
-                i++;
+            if ( viz_s[nr] == 0) { /* ma asigur ca nu iau ac nr de mai multe ori*/
+                if (viz_c[nr] == 1 && ecl==0) { //daca e primul elem luat din clica il ad
+                    ecl=1;
+                    viz_s[nr] = 1;
+                    stabil[i] = nr;
+                    i++;
+                }
+                if (viz_c[nr] == 0 )  { //daca nu e din clica
+                    viz_s[nr] = 1;
+                    stabil[i] = nr;
+                    i++;
+                }
             }
         }
         System.out.println("Multimea stabila:");
