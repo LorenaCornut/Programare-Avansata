@@ -1,8 +1,5 @@
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
+
 public class Solutie {
     private Problema problema;
     private Map<Zbor,Runway> mapare=new HashMap<>();
@@ -16,33 +13,36 @@ public class Solutie {
      */
     public Map<Zbor,Runway> rez(Problema problema)
     {
-        List<Runway> runways = problema.getAirport().getRunways(); ///preluam lista de piste
-        Set<Zbor> zboruri=problema.getZboruri(); ///preluam lista de zboruri
-        for(Zbor z : zboruri) ///parcurgem lista de zboruri
+        List<Runway> runways = problema.getAirport().getRunways();
+        Set<Zbor> zborurii=problema.getZboruri();
+        //zboruri.sort(Comparator.comparing(zbor -> zbor.getTimp().getStart()));
+        List<Zbor> zboruri=new ArrayList<>(zborurii);
+        zboruri.sort(Comparator.comparing(zbor -> zbor.getTimp().getStart()));
+        for(Zbor z : zboruri)
         {
-            boolean atribuit=false; ///momentan nu are o pista planificata
-            for(Runway r : runways) ///parcurgem lista de piste ca sa vedem pe care i-o putem atribui
+            boolean atribuit=false;
+            for(Runway r : runways)
             {
-                boolean confilct=false; ///pentru a verifica daca pe pista curenta am conflict
-                for(Map.Entry<Zbor, Runway> entry : mapare.entrySet()) ///parcurgem zborurile care au lispa atribuita deja si le cautam pe cele planificate pe pista asta
+                boolean confilct=false;
+                for(Map.Entry<Zbor, Runway> entry : mapare.entrySet())
                 {
-                    if (entry.getValue().equals(r)) /// daca are asociata pista asta
+                    if (entry.getValue().equals(r))
                     {
-                        Zbor zborurip = entry.getKey(); ///iau zborul
+                        Zbor zborurip = entry.getKey();
                          /// daca incepe inainte de terminarea zborului planificat si daca se termina dupa inceputul zborului planificat pe acea pista
-                        if(z.getTimp().getFirst().isBefore(zborurip.getTimp().getSecond()) && z.getTimp().getSecond().isAfter(zborurip.getTimp().getFirst()))
+                        if(z.getTimp().getStart().isBefore(zborurip.getTimp().getSecond()) && z.getTimp().getSecond().isAfter(zborurip.getTimp().getFirst()))
                         {
-                            confilct=true; ///am conflict
-                            break; ///e destul sa am conflict cu un zbor
+                            confilct=true;
+                            break;
                         }
                     }
                 }
-                if(!confilct) /// daca nu am conflict
+                if(!confilct)
                 {
                     mapare.put(z,r);
-                    z.setRunway(r); ///ii atribui pista asta
-                    atribuit=true; ///am reusit sa ii atribuim
-                    break; ///daca am reusit sa ii atribuim iesim
+                    z.setRunway(r);
+                    atribuit=true;
+                    break;
                 }
             }
             if(!atribuit)
