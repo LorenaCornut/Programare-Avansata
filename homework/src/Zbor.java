@@ -1,6 +1,6 @@
 import java.time.LocalTime;
 
-public class Zbor {
+public class Zbor implements Comparable<Zbor> {
     private String id_zbor;
     private Aircraft aircraft; ///vehiculul
     private TimeInterval timp;
@@ -43,6 +43,11 @@ public class Zbor {
                 " vehicul de zbor: " + aircraft  +
                 " timp: " + timp +
                 " pista: " + runway + '\'';
+    }
+
+    @Override
+    public int compareTo(Zbor other) {
+        return this.timp.getStart().compareTo(other.timp.getStart());
     }
 
     @Override
