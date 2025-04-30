@@ -37,7 +37,7 @@ public class Line implements Serializable {
         if (o == null || getClass() != o.getClass()) return false;
         Line line = (Line) o;
         return start.equals(line.start) && end.equals(line.end) ||
-                start.equals(line.end) && end.equals(line.start); // Consider lines bidirectional
+                start.equals(line.end) && end.equals(line.start);
     }
 
     @Override

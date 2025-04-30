@@ -44,26 +44,26 @@ public class DrawingPanel extends JPanel {
 
     public void handleDotSelection(int x, int y) {
         if (frame.isGameOver()) return;
+
         Point selected = findDotAt(x, y);
         if (selected != null) {
             if (firstSelectedDot == null) {
                 firstSelectedDot = selected;
-                repaint();
             } else if (!firstSelectedDot.equals(selected)) {
                 Color color = frame.getCurrentPlayerColor();
                 Line line = new Line(firstSelectedDot, selected, color);
-                lines.add(line);
-                frame.addLine(line);
-                ///addLine(line);
-                frame.switchPlayer();
-                firstSelectedDot = null;
-                repaint();
-
-                if (isGraphConnected()) {
-                    frame.gameOver();
+                if (!lines.contains(line)) {
+                    lines.add(line);
+                    frame.addLine(line);
+                    frame.switchPlayer();
+                    if (!frame.isGameOver()) {
+                        frame.makeAIMove();
+                    }
                 }
+                firstSelectedDot = null;
             }
         }
+        repaint();
     }
 
     public void addLine(Line line) {
@@ -84,7 +84,7 @@ public class DrawingPanel extends JPanel {
     public void createOffscreenImage() {
         image = new BufferedImage(canvasWidth, canvasHeight, BufferedImage.TYPE_INT_ARGB);
         offscreen = image.createGraphics();
-        offscreen.setColor(Color.WHITE); // fill the image with white
+        offscreen.setColor(Color.WHITE);
         offscreen.fillRect(0, 0, canvasWidth, canvasHeight);
     }
 
@@ -158,7 +158,6 @@ public class DrawingPanel extends JPanel {
         List<Line> allPossibleLines = new ArrayList<>();
         for (int i = 0; i < dots.size(); i++) {
             for (int j = i + 1; j < dots.size(); j++) {
-                // Use the actual dots from the list, not new Point objects
                 allPossibleLines.add(new Line(dots.get(i), dots.get(j), Color.BLACK));
             }
         }
@@ -175,7 +174,6 @@ public class DrawingPanel extends JPanel {
             int u = dots.indexOf(line.getStart());
             int v = dots.indexOf(line.getEnd());
 
-            // Debug output for each line
             System.out.printf("Line %s to %s (length %.2f) - indices %d,%d%n",
                     line.getStart(), line.getEnd(), line.getLength(), u, v);
 
@@ -218,7 +216,7 @@ public class DrawingPanel extends JPanel {
         return true;
     }
 
-    public List<Line> generatePossibleMoves() {
+    /*public List<Line> generatePossibleMoves() {
         List<Line> possibleMoves = new ArrayList<>();
         for (int i = 0; i < dots.size(); i++) {
             for (int j = i + 1; j < dots.size(); j++) {
@@ -232,41 +230,5 @@ public class DrawingPanel extends JPanel {
         }
         possibleMoves.sort(Comparator.comparingDouble(Line::getLength));
         return possibleMoves;
-    }
-
-    private static class DisjointSet {
-        private final int[] parent;
-        private final int[] rank;
-
-        public DisjointSet(int size) {
-            parent = new int[size];
-            rank = new int[size];
-            for (int i = 0; i < size; i++) {
-                parent[i] = i;
-            }
-        }
-
-        public int find(int x) {
-            if (parent[x] != x) {
-                parent[x] = find(parent[x]);
-            }
-            return parent[x];
-        }
-
-        public void union(int x, int y) {
-            int xRoot = find(x);
-            int yRoot = find(y);
-
-            if (xRoot == yRoot) return;
-
-            if (rank[xRoot] < rank[yRoot]) {
-                parent[xRoot] = yRoot;
-            } else if (rank[xRoot] > rank[yRoot]) {
-                parent[yRoot] = xRoot;
-            } else {
-                parent[yRoot] = xRoot;
-                rank[xRoot]++;
-            }
-        }
-    }
+    }*/
 }

@@ -6,11 +6,17 @@ import java.io.File;
 import java.io.IOException;
 import javax.imageio.ImageIO;
 import java.io.*;
+import java.util.List;
+
+import java.util.ArrayList;
+import java.util.Random;
+import java.util.Comparator;
 
 public class MainFrame extends JFrame {
     private ConfigPanel configPanel;
+    private PlayerConfigPanel playerConfigPanel;
     private ControlPanel controlPanel;
-    private DrawingPanel canvas;
+    public DrawingPanel canvas;
     private int player1Score = 0;
     private int player2Score = 0;
     private int optimalScore = 0;
@@ -33,10 +39,15 @@ public class MainFrame extends JFrame {
         setLayout(new BorderLayout());
 
         configPanel = new ConfigPanel(this);
+        playerConfigPanel = new PlayerConfigPanel();
         controlPanel = new ControlPanel(this);
         canvas = new DrawingPanel(this);
 
-        add(configPanel, BorderLayout.NORTH);
+        JPanel topPanel = new JPanel(new BorderLayout());
+        topPanel.add(configPanel, BorderLayout.NORTH);
+        topPanel.add(playerConfigPanel, BorderLayout.SOUTH);
+
+        add(topPanel, BorderLayout.NORTH);
         add(canvas, BorderLayout.CENTER);
         add(controlPanel, BorderLayout.SOUTH);
 
@@ -70,6 +81,10 @@ public class MainFrame extends JFrame {
         player2Score = 0;
         gameOver = false;
         updateScoreDisplay();
+
+        if (playerConfigPanel.isBothAI()) {
+            makeAIMove();
+        }
     }
     public void addLine(Line line) {
         ///canvas.addLine(line);
@@ -80,7 +95,12 @@ public class MainFrame extends JFrame {
             player2Score += line.getLength();
         }
         updateScoreDisplay();
-        this.revalidate(); // Adaugă această linie
+
+        if (canvas.isGraphConnected()) {
+            gameOver();
+        }
+
+        this.revalidate();
         this.repaint();
     }
     private void calculateOptimalScore() {
@@ -153,6 +173,131 @@ public class MainFrame extends JFrame {
             e.printStackTrace();
         }
     }
+
+    public void makeAIMove() {
+        // Verifică dacă jocul s-a terminat sau graful este deja conex
+        if (gameOver || canvas.isGraphConnected()) {
+            gameOver();
+            return;
+        }
+
+        // Verifică dacă mai sunt mutări disponibile
+        if (canvas.getLines().size() >= canvas.getDots().size() * (canvas.getDots().size() - 1) / 2) {
+            gameOver();
+            return;
+        }
+
+        boolean isCurrentPlayerAI = isPlayer1Turn ?
+                playerConfigPanel.isPlayer1AI() : playerConfigPanel.isPlayer2AI();
+        if (!isCurrentPlayerAI) return;
+
+        // Execută pe un thread separat pentru a nu bloca interfața
+        new SwingWorker<Void, Void>() {
+            @Override
+            protected Void doInBackground() {
+                // Adaugă un mic delay pentru vizibilitate
+                try { Thread.sleep(500); } catch (InterruptedException e) {}
+
+                int difficulty = isPlayer1Turn ?
+                        playerConfigPanel.getPlayer1Difficulty() : playerConfigPanel.getPlayer2Difficulty();
+
+                // Obține toate muchiile posibile care nu au fost deja desenate
+                List<Line> possibleMoves = new ArrayList<>();
+                List<Point> dots = canvas.getDots();
+
+                for (int i = 0; i < dots.size(); i++) {
+                    for (int j = i + 1; j < dots.size(); j++) {
+                        Line line = new Line(dots.get(i), dots.get(j), Color.BLACK);
+                        if (!canvas.getLines().contains(line)) {
+                            possibleMoves.add(line);
+                        }
+                    }
+                }
+
+                // Sortează muchiile după lungime (pentru algoritmul lui Kruskal)
+                possibleMoves.sort(Comparator.comparingDouble(Line::getLength));
+
+                // Alegerea mutării în funcție de dificultate
+                Line chosenMove = null;
+                Random random = new Random();
+
+                switch (difficulty) {
+                    case 0: // Easy - alegere aleatoare
+                        if (!possibleMoves.isEmpty()) {
+                            chosenMove = possibleMoves.get(random.nextInt(possibleMoves.size()));
+                        }
+                        break;
+
+                    case 1: // Medium - 70% șansă de alegere optimă
+                        if (!possibleMoves.isEmpty()) {
+                            if (random.nextDouble() < 0.7) {
+                                chosenMove = possibleMoves.get(0); // Cea mai scurtă muchie
+                            } else {
+                                // Alegere aleatoare din primele 30% muchii
+                                int index = random.nextInt(Math.max(1, possibleMoves.size() / 3));
+                                chosenMove = possibleMoves.get(index);
+                            }
+                        }
+                        break;
+
+                    case 2: // Hard - întotdeauna alegere optimă (Kruskal)
+                        if (!possibleMoves.isEmpty()) {
+                            // Folosește DisjointSet pentru a evita crearea de cicluri
+                            DisjointSet ds = new DisjointSet(dots.size());
+
+                            // Actualizează setul cu muchiile existente
+                            for (Line line : canvas.getLines()) {
+                                int u = dots.indexOf(line.getStart());
+                                int v = dots.indexOf(line.getEnd());
+                                if (u != -1 && v != -1) {
+                                    ds.union(u, v);
+                                }
+                            }
+
+                            // Caută prima muchie disponibilă care nu creează ciclu
+                            for (Line line : possibleMoves) {
+                                int u = dots.indexOf(line.getStart());
+                                int v = dots.indexOf(line.getEnd());
+
+                                if (ds.find(u) != ds.find(v)) {
+                                    chosenMove = line;
+                                    break;
+                                }
+                            }
+
+                            // Dacă toate muchiile creează cicluri, alege una aleator
+                            if (chosenMove == null && !possibleMoves.isEmpty()) {
+                                chosenMove = possibleMoves.get(random.nextInt(possibleMoves.size()));
+                            }
+                        }
+                        break;
+                }
+
+                // Execută mutarea pe Event Dispatch Thread
+                if (chosenMove != null) {
+                    Line finalMove = chosenMove;
+                    SwingUtilities.invokeLater(() -> {
+                        Color color = getCurrentPlayerColor();
+                        Line newLine = new Line(finalMove.getStart(), finalMove.getEnd(), color);
+                        canvas.getLines().add(newLine);
+                        addLine(newLine); // Verifică automat conectivitatea
+                        switchPlayer();
+                        canvas.repaint();
+
+                        // Continuă jocul dacă nu e terminat
+                        if (!gameOver && !canvas.isGraphConnected()) {
+                            // Dacă ambii jucători sunt AI, face următoarea mutare automat
+                            if (playerConfigPanel.isBothAI()) {
+                                makeAIMove();
+                            }
+                        }
+                    });
+                }
+                return null;
+            }
+        }.execute();
+    }
+
 
     public static void main(String[] args) {
         SwingUtilities.invokeLater(() -> new MainFrame().setVisible(true));
