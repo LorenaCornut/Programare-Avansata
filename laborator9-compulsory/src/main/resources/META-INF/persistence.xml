@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="3.0" xmlns="https://jakarta.ee/xml/ns/persistence"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="https://jakarta.ee/xml/ns/persistence https://jakarta.ee/xml/ns/persistence/persistence_3_0.xsd">
+    <persistence-unit name="WorldPU" transaction-type="RESOURCE_LOCAL">
+        <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+        <class>org.example.Continent</class>
+        <class>org.example.Country</class>
+        <class>org.example.City</class>
+        <properties>
+            <property name="jakarta.persistence.jdbc.driver" value="oracle.jdbc.OracleDriver"/>
+            <property name="jakarta.persistence.jdbc.url" value="jdbc:oracle:thin:@localhost:1521:XE"/>
+            <property name="jakarta.persistence.jdbc.user" value="lab8java"/>
+            <property name="jakarta.persistence.jdbc.password" value="lab8java"/>
+            <property name="eclipselink.logging.level" value="FINE"/>
+        </properties>
+    </persistence-unit>
+</persistence>
