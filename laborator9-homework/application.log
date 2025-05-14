@@ -1,0 +1,492 @@
+[2025-05-14 15:00:21] [FINER  ] javax.management.misc: Building MBeanInfo for sun.management.RuntimeImpl
+[2025-05-14 15:00:21] [FINER  ] javax.management.mbeanserver: ObjectName = java.lang:type=Runtime
+[2025-05-14 15:00:21] [FINER  ] javax.management.mbeanserver: name = java.lang:type=Runtime
+[2025-05-14 15:00:21] [FINER  ] javax.management.mbeanserver: Send create notification of object java.lang:type=Runtime
+[2025-05-14 15:00:21] [FINER  ] javax.management.mbeanserver: JMX.mbean.registered java.lang:type=Runtime
+[2025-05-14 15:00:21] [FINER  ] global: ENTRY file:/C:/Java/Programare-Avansata/laborator9-homework/target/classes/ META-INF/persistence.xml
+[2025-05-14 15:00:21] [FINER  ] global: protocol = file
+[2025-05-14 15:00:21] [FINER  ] javax.management.misc: Building MBeanInfo for com.sun.management.internal.HotSpotThreadImpl
+[2025-05-14 15:00:21] [FINER  ] javax.management.mbeanserver: ObjectName = java.lang:type=Threading
+[2025-05-14 15:00:21] [FINER  ] javax.management.mbeanserver: name = java.lang:type=Threading
+[2025-05-14 15:00:21] [FINER  ] javax.management.mbeanserver: Send create notification of object java.lang:type=Threading
+[2025-05-14 15:00:21] [FINER  ] javax.management.mbeanserver: JMX.mbean.registered java.lang:type=Threading
+[2025-05-14 15:00:21] [FINER  ] global: ENTRY C:\Java\Programare-Avansata\laborator9-homework\target\classes
+[2025-05-14 15:00:21] [FINER  ] global: rootURL = file:/C:/Java/Programare-Avansata/laborator9-homework/target/classes/
+[2025-05-14 15:00:21] [FINER  ] global: RETURN DirectoryArchive(file:/C:/Java/Programare-Avansata/laborator9-homework/target/classes/)
+[2025-05-14 15:00:21] [FINER  ] javax.management.misc: Building MBeanInfo for com.sun.management.internal.OperatingSystemImpl
+[2025-05-14 15:00:21] [FINER  ] javax.management.mbeanserver: ObjectName = java.lang:type=OperatingSystem
+[2025-05-14 15:00:21] [FINER  ] javax.management.mbeanserver: name = java.lang:type=OperatingSystem
+[2025-05-14 15:00:21] [FINER  ] javax.management.mbeanserver: Send create notification of object java.lang:type=OperatingSystem
+[2025-05-14 15:00:21] [FINER  ] javax.management.mbeanserver: JMX.mbean.registered java.lang:type=OperatingSystem
+[2025-05-14 15:00:21] [FINER  ] javax.management.misc: Building MBeanInfo for sun.management.MemoryManagerImpl
+[2025-05-14 15:00:21] [FINER  ] javax.management.mbeanserver: ObjectName = java.lang:name=CodeCacheManager,type=MemoryManager
+[2025-05-14 15:00:21] [FINER  ] javax.management.mbeanserver: name = java.lang:name=CodeCacheManager,type=MemoryManager
+[2025-05-14 15:00:21] [FINER  ] javax.management.mbeanserver: Send create notification of object java.lang:name=CodeCacheManager,type=MemoryManager
+[2025-05-14 15:00:21] [FINER  ] javax.management.mbeanserver: JMX.mbean.registered java.lang:name=CodeCacheManager,type=MemoryManager
+[2025-05-14 15:00:21] [FINER  ] javax.management.misc: Building MBeanInfo for sun.management.MemoryManagerImpl
+[2025-05-14 15:00:21] [FINER  ] javax.management.mbeanserver: ObjectName = java.lang:name=Metaspace Manager,type=MemoryManager
+[2025-05-14 15:00:21] [FINER  ] javax.management.mbeanserver: name = java.lang:name=Metaspace Manager,type=MemoryManager
+[2025-05-14 15:00:21] [FINER  ] javax.management.mbeanserver: Send create notification of object java.lang:name=Metaspace Manager,type=MemoryManager
+[2025-05-14 15:00:21] [FINER  ] javax.management.mbeanserver: JMX.mbean.registered java.lang:name=Metaspace Manager,type=MemoryManager
+[2025-05-14 15:00:21] [FINER  ] javax.management.misc: Building MBeanInfo for sun.management.MemoryPoolImpl
+[2025-05-14 15:00:21] [FINER  ] javax.management.mbeanserver: ObjectName = java.lang:name=CodeHeap 'non-nmethods',type=MemoryPool
+[2025-05-14 15:00:21] [FINER  ] javax.management.mbeanserver: name = java.lang:name=CodeHeap 'non-nmethods',type=MemoryPool
+[2025-05-14 15:00:21] [FINER  ] javax.management.mbeanserver: Send create notification of object java.lang:name=CodeHeap 'non-nmethods',type=MemoryPool
+[2025-05-14 15:00:21] [FINER  ] javax.management.mbeanserver: JMX.mbean.registered java.lang:name=CodeHeap 'non-nmethods',type=MemoryPool
+[2025-05-14 15:00:21] [FINER  ] javax.management.misc: Building MBeanInfo for sun.management.MemoryPoolImpl
+[2025-05-14 15:00:21] [FINER  ] javax.management.mbeanserver: ObjectName = java.lang:name=Metaspace,type=MemoryPool
+[2025-05-14 15:00:21] [FINER  ] javax.management.mbeanserver: name = java.lang:name=Metaspace,type=MemoryPool
+[2025-05-14 15:00:21] [FINER  ] javax.management.mbeanserver: Send create notification of object java.lang:name=Metaspace,type=MemoryPool
+[2025-05-14 15:00:21] [FINER  ] javax.management.mbeanserver: JMX.mbean.registered java.lang:name=Metaspace,type=MemoryPool
+[2025-05-14 15:00:21] [FINER  ] javax.management.misc: Building MBeanInfo for sun.management.MemoryPoolImpl
+[2025-05-14 15:00:21] [FINER  ] javax.management.mbeanserver: ObjectName = java.lang:name=CodeHeap 'profiled nmethods',type=MemoryPool
+[2025-05-14 15:00:21] [FINER  ] javax.management.mbeanserver: name = java.lang:name=CodeHeap 'profiled nmethods',type=MemoryPool
+[2025-05-14 15:00:21] [FINER  ] javax.management.mbeanserver: Send create notification of object java.lang:name=CodeHeap 'profiled nmethods',type=MemoryPool
+[2025-05-14 15:00:21] [FINER  ] javax.management.mbeanserver: JMX.mbean.registered java.lang:name=CodeHeap 'profiled nmethods',type=MemoryPool
+[2025-05-14 15:00:21] [FINER  ] javax.management.misc: Building MBeanInfo for sun.management.MemoryPoolImpl
+[2025-05-14 15:00:21] [FINER  ] javax.management.mbeanserver: ObjectName = java.lang:name=Compressed Class Space,type=MemoryPool
+[2025-05-14 15:00:21] [FINER  ] javax.management.mbeanserver: name = java.lang:name=Compressed Class Space,type=MemoryPool
+[2025-05-14 15:00:21] [FINER  ] javax.management.mbeanserver: Send create notification of object java.lang:name=Compressed Class Space,type=MemoryPool
+[2025-05-14 15:00:21] [FINER  ] javax.management.mbeanserver: JMX.mbean.registered java.lang:name=Compressed Class Space,type=MemoryPool
+[2025-05-14 15:00:21] [FINER  ] javax.management.misc: Building MBeanInfo for sun.management.MemoryPoolImpl
+[2025-05-14 15:00:21] [FINER  ] javax.management.mbeanserver: ObjectName = java.lang:name=G1 Eden Space,type=MemoryPool
+[2025-05-14 15:00:21] [FINER  ] javax.management.mbeanserver: name = java.lang:name=G1 Eden Space,type=MemoryPool
+[2025-05-14 15:00:21] [FINER  ] javax.management.mbeanserver: Send create notification of object java.lang:name=G1 Eden Space,type=MemoryPool
+[2025-05-14 15:00:21] [FINER  ] javax.management.mbeanserver: JMX.mbean.registered java.lang:name=G1 Eden Space,type=MemoryPool
+[2025-05-14 15:00:21] [FINER  ] javax.management.misc: Building MBeanInfo for sun.management.MemoryPoolImpl
+[2025-05-14 15:00:21] [FINER  ] javax.management.mbeanserver: ObjectName = java.lang:name=G1 Old Gen,type=MemoryPool
+[2025-05-14 15:00:21] [FINER  ] javax.management.mbeanserver: name = java.lang:name=G1 Old Gen,type=MemoryPool
+[2025-05-14 15:00:21] [FINER  ] javax.management.mbeanserver: Send create notification of object java.lang:name=G1 Old Gen,type=MemoryPool
+[2025-05-14 15:00:21] [FINER  ] javax.management.mbeanserver: JMX.mbean.registered java.lang:name=G1 Old Gen,type=MemoryPool
+[2025-05-14 15:00:21] [FINER  ] javax.management.misc: Building MBeanInfo for sun.management.MemoryPoolImpl
+[2025-05-14 15:00:21] [FINER  ] javax.management.mbeanserver: ObjectName = java.lang:name=G1 Survivor Space,type=MemoryPool
+[2025-05-14 15:00:21] [FINER  ] javax.management.mbeanserver: name = java.lang:name=G1 Survivor Space,type=MemoryPool
+[2025-05-14 15:00:21] [FINER  ] javax.management.mbeanserver: Send create notification of object java.lang:name=G1 Survivor Space,type=MemoryPool
+[2025-05-14 15:00:21] [FINER  ] javax.management.mbeanserver: JMX.mbean.registered java.lang:name=G1 Survivor Space,type=MemoryPool
+[2025-05-14 15:00:21] [FINER  ] javax.management.misc: Building MBeanInfo for sun.management.MemoryPoolImpl
+[2025-05-14 15:00:21] [FINER  ] javax.management.mbeanserver: ObjectName = java.lang:name=CodeHeap 'non-profiled nmethods',type=MemoryPool
+[2025-05-14 15:00:21] [FINER  ] javax.management.mbeanserver: name = java.lang:name=CodeHeap 'non-profiled nmethods',type=MemoryPool
+[2025-05-14 15:00:21] [FINER  ] javax.management.mbeanserver: Send create notification of object java.lang:name=CodeHeap 'non-profiled nmethods',type=MemoryPool
+[2025-05-14 15:00:21] [FINER  ] javax.management.mbeanserver: JMX.mbean.registered java.lang:name=CodeHeap 'non-profiled nmethods',type=MemoryPool
+[2025-05-14 15:00:21] [FINER  ] javax.management.misc: Building MBeanInfo for sun.management.CompilationImpl
+[2025-05-14 15:00:21] [FINER  ] javax.management.mbeanserver: ObjectName = java.lang:type=Compilation
+[2025-05-14 15:00:21] [FINER  ] javax.management.mbeanserver: name = java.lang:type=Compilation
+[2025-05-14 15:00:21] [FINER  ] javax.management.mbeanserver: Send create notification of object java.lang:type=Compilation
+[2025-05-14 15:00:21] [FINER  ] javax.management.mbeanserver: JMX.mbean.registered java.lang:type=Compilation
+[2025-05-14 15:00:21] [FINER  ] javax.management.misc: Building MBeanInfo for sun.management.MemoryImpl
+[2025-05-14 15:00:21] [FINER  ] javax.management.mbeanserver: ObjectName = java.lang:type=Memory
+[2025-05-14 15:00:21] [FINER  ] javax.management.mbeanserver: name = java.lang:type=Memory
+[2025-05-14 15:00:21] [FINER  ] javax.management.mbeanserver: Send create notification of object java.lang:type=Memory
+[2025-05-14 15:00:21] [FINER  ] javax.management.mbeanserver: JMX.mbean.registered java.lang:type=Memory
+[2025-05-14 15:00:21] [FINER  ] javax.management.misc: Building MBeanInfo for sun.management.ManagementFactoryHelper$PlatformLoggingImpl
+[2025-05-14 15:00:21] [FINER  ] javax.management.mbeanserver: ObjectName = java.util.logging:type=Logging
+[2025-05-14 15:00:21] [FINER  ] javax.management.mbeanserver: name = java.util.logging:type=Logging
+[2025-05-14 15:00:21] [FINER  ] javax.management.mbeanserver: Send create notification of object java.util.logging:type=Logging
+[2025-05-14 15:00:21] [FINER  ] javax.management.mbeanserver: JMX.mbean.registered java.util.logging:type=Logging
+[2025-05-14 15:00:21] [FINER  ] javax.management.misc: Building MBeanInfo for sun.management.ClassLoadingImpl
+[2025-05-14 15:00:21] [FINER  ] javax.management.mbeanserver: ObjectName = java.lang:type=ClassLoading
+[2025-05-14 15:00:21] [FINER  ] javax.management.mbeanserver: name = java.lang:type=ClassLoading
+[2025-05-14 15:00:21] [FINER  ] javax.management.mbeanserver: Send create notification of object java.lang:type=ClassLoading
+[2025-05-14 15:00:21] [FINER  ] javax.management.mbeanserver: JMX.mbean.registered java.lang:type=ClassLoading
+[2025-05-14 15:00:21] [FINER  ] javax.management.mbeanserver: ObjectName = com.sun.management:type=DiagnosticCommand
+[2025-05-14 15:00:21] [FINER  ] javax.management.mbeanserver: name = com.sun.management:type=DiagnosticCommand
+[2025-05-14 15:00:21] [FINER  ] javax.management.mbeanserver: Send create notification of object com.sun.management:type=DiagnosticCommand
+[2025-05-14 15:00:21] [FINER  ] javax.management.mbeanserver: JMX.mbean.registered com.sun.management:type=DiagnosticCommand
+[2025-05-14 15:00:21] [FINER  ] javax.management.misc: Building MBeanInfo for com.sun.management.internal.GarbageCollectorExtImpl
+[2025-05-14 15:00:21] [FINER  ] javax.management.mbeanserver: ObjectName = java.lang:name=G1 Young Generation,type=GarbageCollector
+[2025-05-14 15:00:21] [FINER  ] javax.management.mbeanserver: name = java.lang:name=G1 Young Generation,type=GarbageCollector
+[2025-05-14 15:00:21] [FINER  ] javax.management.mbeanserver: Send create notification of object java.lang:name=G1 Young Generation,type=GarbageCollector
+[2025-05-14 15:00:21] [FINER  ] javax.management.mbeanserver: JMX.mbean.registered java.lang:name=G1 Young Generation,type=GarbageCollector
+[2025-05-14 15:00:21] [FINER  ] javax.management.misc: Building MBeanInfo for com.sun.management.internal.GarbageCollectorExtImpl
+[2025-05-14 15:00:21] [FINER  ] javax.management.mbeanserver: ObjectName = java.lang:name=G1 Concurrent GC,type=GarbageCollector
+[2025-05-14 15:00:21] [FINER  ] javax.management.mbeanserver: name = java.lang:name=G1 Concurrent GC,type=GarbageCollector
+[2025-05-14 15:00:21] [FINER  ] javax.management.mbeanserver: Send create notification of object java.lang:name=G1 Concurrent GC,type=GarbageCollector
+[2025-05-14 15:00:21] [FINER  ] javax.management.mbeanserver: JMX.mbean.registered java.lang:name=G1 Concurrent GC,type=GarbageCollector
+[2025-05-14 15:00:21] [FINER  ] javax.management.misc: Building MBeanInfo for com.sun.management.internal.GarbageCollectorExtImpl
+[2025-05-14 15:00:21] [FINER  ] javax.management.mbeanserver: ObjectName = java.lang:name=G1 Old Generation,type=GarbageCollector
+[2025-05-14 15:00:21] [FINER  ] javax.management.mbeanserver: name = java.lang:name=G1 Old Generation,type=GarbageCollector
+[2025-05-14 15:00:21] [FINER  ] javax.management.mbeanserver: Send create notification of object java.lang:name=G1 Old Generation,type=GarbageCollector
+[2025-05-14 15:00:21] [FINER  ] javax.management.mbeanserver: JMX.mbean.registered java.lang:name=G1 Old Generation,type=GarbageCollector
+[2025-05-14 15:00:21] [FINER  ] javax.management.misc: Building MBeanInfo for com.sun.management.internal.HotSpotDiagnostic
+[2025-05-14 15:00:21] [FINER  ] javax.management.mbeanserver: ObjectName = com.sun.management:type=HotSpotDiagnostic
+[2025-05-14 15:00:21] [FINER  ] javax.management.mbeanserver: name = com.sun.management:type=HotSpotDiagnostic
+[2025-05-14 15:00:21] [FINER  ] javax.management.mbeanserver: Send create notification of object com.sun.management:type=HotSpotDiagnostic
+[2025-05-14 15:00:21] [FINER  ] javax.management.mbeanserver: JMX.mbean.registered com.sun.management:type=HotSpotDiagnostic
+[2025-05-14 15:00:21] [FINER  ] javax.management.misc: Building MBeanInfo for sun.management.ManagementFactoryHelper$1
+[2025-05-14 15:00:21] [FINER  ] javax.management.mbeanserver: ObjectName = java.nio:name=mapped,type=BufferPool
+[2025-05-14 15:00:21] [FINER  ] javax.management.mbeanserver: name = java.nio:name=mapped,type=BufferPool
+[2025-05-14 15:00:21] [FINER  ] javax.management.mbeanserver: Send create notification of object java.nio:name=mapped,type=BufferPool
+[2025-05-14 15:00:21] [FINER  ] javax.management.mbeanserver: JMX.mbean.registered java.nio:name=mapped,type=BufferPool
+[2025-05-14 15:00:21] [FINER  ] javax.management.misc: Building MBeanInfo for sun.management.ManagementFactoryHelper$1
+[2025-05-14 15:00:21] [FINER  ] javax.management.mbeanserver: ObjectName = java.nio:name=direct,type=BufferPool
+[2025-05-14 15:00:21] [FINER  ] javax.management.mbeanserver: name = java.nio:name=direct,type=BufferPool
+[2025-05-14 15:00:21] [FINER  ] javax.management.mbeanserver: Send create notification of object java.nio:name=direct,type=BufferPool
+[2025-05-14 15:00:21] [FINER  ] javax.management.mbeanserver: JMX.mbean.registered java.nio:name=direct,type=BufferPool
+[2025-05-14 15:00:21] [FINER  ] javax.management.misc: Building MBeanInfo for sun.management.ManagementFactoryHelper$1
+[2025-05-14 15:00:21] [FINER  ] javax.management.mbeanserver: ObjectName = java.nio:name=mapped - 'non-volatile memory',type=BufferPool
+[2025-05-14 15:00:21] [FINER  ] javax.management.mbeanserver: name = java.nio:name=mapped - 'non-volatile memory',type=BufferPool
+[2025-05-14 15:00:21] [FINER  ] javax.management.mbeanserver: Send create notification of object java.nio:name=mapped - 'non-volatile memory',type=BufferPool
+[2025-05-14 15:00:21] [FINER  ] javax.management.mbeanserver: JMX.mbean.registered java.nio:name=mapped - 'non-volatile memory',type=BufferPool
+[2025-05-14 15:00:21] [FINER  ] javax.management.misc: Building MBeanInfo for jdk.management.jfr.FlightRecorderMXBeanImpl
+[2025-05-14 15:00:21] [FINER  ] javax.management.mbeanserver: ObjectName = jdk.management.jfr:type=FlightRecorder
+[2025-05-14 15:00:21] [FINER  ] javax.management.mbeanserver: name = jdk.management.jfr:type=FlightRecorder
+[2025-05-14 15:00:21] [FINER  ] javax.management.mbeanserver: Send create notification of object jdk.management.jfr:type=FlightRecorder
+[2025-05-14 15:00:21] [FINER  ] javax.management.mbeanserver: JMX.mbean.registered jdk.management.jfr:type=FlightRecorder
+[2025-05-14 15:00:21] [FINER  ] javax.management.remote.rmi: setting default class loader
+[2025-05-14 15:00:21] [FINER  ] javax.management.remote.rmi: setting RMIServer object
+[2025-05-14 15:00:21] [FINE   ] sun.rmi.transport.tcp: Attach Listener: localHostKnown = true, localHost = 192.168.115.198
+[2025-05-14 15:00:21] [FINE   ] sun.rmi.transport.tcp: Attach Listener: Version = 2, ep = [192.168.115.198:0,sun.management.jmxremote.LocalRMIServerSocketFactory@68bc07e4]
+[2025-05-14 15:00:21] [FINE   ] sun.rmi.transport.tcp: Attach Listener: created local endpoint for socket factory sun.management.jmxremote.LocalRMIServerSocketFactory@68bc07e4 on port 0
+[2025-05-14 15:00:21] [FINE   ] sun.rmi.transport.tcp: Attach Listener: Version = 2, ep = [192.168.115.198:0]
+[2025-05-14 15:00:21] [FINE   ] sun.rmi.transport.tcp: Attach Listener: created local endpoint for socket factory null on port 0
+[2025-05-14 15:00:21] [FINER  ] sun.rmi.dgc: Attach Listener: strongRef = sun.rmi.transport.DGCImpl@7a3f73ba
+[2025-05-14 15:00:21] [FINER  ] sun.rmi.dgc: Attach Listener: add object [0:0:0, 2]
+[2025-05-14 15:00:21] [FINER  ] sun.rmi.dgc: Attach Listener: strongRef = javax.management.remote.rmi.RMIJRMPServerImpl@70244b96
+[2025-05-14 15:00:21] [FINE   ] sun.rmi.transport.tcp: Attach Listener: (port 0) create server socket
+[2025-05-14 15:00:21] [FINER  ] sun.rmi.transport.tcp: Attach Listener: creating server socket on [192.168.115.198:0,sun.management.jmxremote.LocalRMIServerSocketFactory@68bc07e4]
+[2025-05-14 15:00:21] [FINE   ] sun.rmi.transport.tcp: Attach Listener: default port for server socket factory sun.management.jmxremote.LocalRMIServerSocketFactory@68bc07e4 and client socket factory null set to 56600
+[2025-05-14 15:00:21] [FINER  ] sun.rmi.dgc: Attach Listener: add object [7c1536a1:196ceaacb6d:-7fff, -2683084642534855487]
+[2025-05-14 15:00:21] [FINE   ] sun.rmi.transport.tcp: RMI TCP Accept-0: listening on port 56600
+[2025-05-14 15:00:21] [FINER  ] sun.rmi.server.ref: Attach Listener: string used for method hash: "newClient(Ljava/lang/Object;)Ljavax/management/remote/rmi/RMIConnection;"
+[2025-05-14 15:00:21] [FINER  ] sun.rmi.server.ref: Attach Listener: string used for method hash: "getVersion()Ljava/lang/String;"
+[2025-05-14 15:00:21] [FINER  ] javax.management.remote.rmi: getting RMIServer object to export
+[2025-05-14 15:00:21] [FINER  ] javax.management.remote.rmi: Encoding URL
+[2025-05-14 15:00:21] [FINER  ] javax.management.remote.rmi: Encoded URL: service:jmx:rmi://127.0.0.1/stub/rO0ABXNyAC5qYXZheC5tYW5hZ2VtZW50LnJlbW90ZS5ybWkuUk1JU2VydmVySW1wbF9TdHViAAAAAAAAAAICAAB4cgAaamF2YS5ybWkuc2VydmVyLlJlbW90ZVN0dWLp/tzJi+FlGgIAAHhyABxqYXZhLnJtaS5zZXJ2ZXIuUmVtb3RlT2JqZWN002G0kQxhMx4DAAB4cHc6AAtVbmljYXN0UmVmMgAADzE5Mi4xNjguMTE1LjE5OAAA3Rjaw8S7s2dswXwVNqEAAAGWzqrLbYABAHg=
+[2025-05-14 15:00:21] [FINER  ] javax.management.remote.rmi: Connector Server Address = service:jmx:rmi://127.0.0.1/stub/rO0ABXNyAC5qYXZheC5tYW5hZ2VtZW50LnJlbW90ZS5ybWkuUk1JU2VydmVySW1wbF9TdHViAAAAAAAAAAICAAB4cgAaamF2YS5ybWkuc2VydmVyLlJlbW90ZVN0dWLp/tzJi+FlGgIAAHhyABxqYXZhLnJtaS5zZXJ2ZXIuUmVtb3RlT2JqZWN002G0kQxhMx4DAAB4cHc6AAtVbmljYXN0UmVmMgAADzE5Mi4xNjguMTE1LjE5OAAA3Rjaw8S7s2dswXwVNqEAAAGWzqrLbYABAHg=
+[2025-05-14 15:00:21] [FINER  ] javax.management.remote.rmi: started.
+[2025-05-14 15:00:21] [FINE   ] sun.rmi.transport.tcp: RMI TCP Connection(1)-192.168.115.198: accepted socket from [192.168.115.198:56602]
+[2025-05-14 15:00:21] [FINER  ] sun.rmi.transport.tcp: RMI TCP Connection(1)-192.168.115.198: (port 56600) suggesting 192.168.115.198:56602
+[2025-05-14 15:00:21] [FINER  ] sun.rmi.transport.tcp: RMI TCP Connection(1)-192.168.115.198: (port 56600) client using 127.0.0.1:0
+[2025-05-14 15:00:21] [FINE   ] sun.rmi.transport.tcp: RMI TCP Connection(1)-192.168.115.198: (port 56600) op = 80
+[2025-05-14 15:00:21] [FINER  ] sun.rmi.transport.misc: RMI TCP Connection(1)-192.168.115.198: getting input stream
+[2025-05-14 15:00:21] [FINEST ] org.eclipse.persistence.session./file:/C:/Java/Programare-Avansata/laborator9-homework/target/classes/_WorldPU.properties: property=eclipselink.logging.level; value=FINE; translated value=FINE
+[2025-05-14 15:00:21] [FINEST ] org.eclipse.persistence.session./file:/C:/Java/Programare-Avansata/laborator9-homework/target/classes/_WorldPU.properties: property=eclipselink.logging.parameters; value=true
+[2025-05-14 15:00:21] [FINEST ] org.eclipse.persistence.session./file:/C:/Java/Programare-Avansata/laborator9-homework/target/classes/_WorldPU.properties: property=eclipselink.logging.level; value=FINE; translated value=FINE
+[2025-05-14 15:00:21] [FINE   ] org.eclipse.persistence.session./file:/C:/Java/Programare-Avansata/laborator9-homework/target/classes/_WorldPU.server: Configured server platform: org.eclipse.persistence.platform.server.NoServerPlatform
+[2025-05-14 15:00:21] [FINER  ] java.io.serialization: Builtin factory: null -> new: null
+[2025-05-14 15:00:21] [FINER  ] sun.rmi.transport.misc: RMI TCP Connection(1)-192.168.115.198: call dispatcher
+[2025-05-14 15:00:21] [FINER  ] sun.rmi.server.call: RMI TCP Connection(1)-192.168.115.198: [192.168.115.198: sun.rmi.transport.DGCImpl[0:0:0, 2]: java.rmi.dgc.Lease dirty(java.rmi.server.ObjID[], long, java.rmi.dgc.Lease)]
+[2025-05-14 15:00:21] [FINER  ] java.io.serialization: Builtin factory: null -> new: sun.rmi.transport.DGCImpl$2$$Lambda/0x000001e55a142380@17df9dbf
+[2025-05-14 15:00:21] [FINE   ] sun.rmi.loader: RMI TCP Connection(1)-192.168.115.198: name = "[Ljava.rmi.server.ObjID;", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@2d49ff9a
+[2025-05-14 15:00:21] [FINER  ] sun.rmi.loader: RMI TCP Connection(1)-192.168.115.198: class "[Ljava.rmi.server.ObjID;" found via defaultLoader, defined by null
+[2025-05-14 15:00:21] [FINER  ] java.io.serialization: ObjectInputFilter ALLOWED: class [Ljava.rmi.server.ObjID;, array length: -1, nRefs: 2, depth: 1, bytes: 80, ex: n/a
+[2025-05-14 15:00:21] [FINER  ] java.io.serialization: ObjectInputFilter ALLOWED: class [Ljava.rmi.server.ObjID;, array length: 1, nRefs: 3, depth: 1, bytes: 86, ex: n/a
+[2025-05-14 15:00:21] [FINE   ] sun.rmi.loader: RMI TCP Connection(1)-192.168.115.198: name = "java.rmi.server.ObjID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@2d49ff9a
+[2025-05-14 15:00:21] [FINER  ] sun.rmi.loader: RMI TCP Connection(1)-192.168.115.198: class "java.rmi.server.ObjID" found via defaultLoader, defined by null
+[2025-05-14 15:00:21] [FINER  ] java.io.serialization: ObjectInputFilter ALLOWED: class java.rmi.server.ObjID, array length: -1, nRefs: 5, depth: 2, bytes: 164, ex: n/a
+[2025-05-14 15:00:21] [FINER  ] global: ENTRY file:/C:/Java/Programare-Avansata/laborator9-homework/target/classes/ null
+[2025-05-14 15:00:21] [FINER  ] global: protocol = file
+[2025-05-14 15:00:21] [FINE   ] sun.rmi.loader: RMI TCP Connection(1)-192.168.115.198: name = "java.rmi.server.UID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@2d49ff9a
+[2025-05-14 15:00:21] [FINER  ] global: ENTRY C:\Java\Programare-Avansata\laborator9-homework\target\classes
+[2025-05-14 15:00:21] [FINER  ] sun.rmi.loader: RMI TCP Connection(1)-192.168.115.198: class "java.rmi.server.UID" found via defaultLoader, defined by null
+[2025-05-14 15:00:21] [FINER  ] global: rootURL = file:/C:/Java/Programare-Avansata/laborator9-homework/target/classes/
+[2025-05-14 15:00:21] [FINER  ] java.io.serialization: ObjectInputFilter ALLOWED: class java.rmi.server.UID, array length: -1, nRefs: 8, depth: 3, bytes: 233, ex: n/a
+[2025-05-14 15:00:21] [FINE   ] sun.rmi.loader: RMI TCP Connection(1)-192.168.115.198: name = "java.rmi.dgc.Lease", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@2d49ff9a
+[2025-05-14 15:00:21] [FINER  ] global: RETURN DirectoryArchive(file:/C:/Java/Programare-Avansata/laborator9-homework/target/classes/)
+[2025-05-14 15:00:21] [FINER  ] sun.rmi.loader: RMI TCP Connection(1)-192.168.115.198: class "java.rmi.dgc.Lease" found via defaultLoader, defined by null
+[2025-05-14 15:00:21] [FINER  ] global: ENTRY file:/C:/Java/Programare-Avansata/laborator9-homework/target/classes/ null
+[2025-05-14 15:00:21] [FINER  ] java.io.serialization: ObjectInputFilter ALLOWED: class java.rmi.dgc.Lease, array length: -1, nRefs: 11, depth: 1, bytes: 330, ex: n/a
+[2025-05-14 15:00:21] [FINER  ] global: protocol = file
+[2025-05-14 15:00:21] [FINER  ] global: ENTRY C:\Java\Programare-Avansata\laborator9-homework\target\classes
+[2025-05-14 15:00:21] [FINER  ] global: rootURL = file:/C:/Java/Programare-Avansata/laborator9-homework/target/classes/
+[2025-05-14 15:00:21] [FINER  ] java.io.serialization: ObjectInputFilter UNDECIDED: null, array length: -1, nRefs: 13, depth: 2, bytes: 395, ex: n/a
+[2025-05-14 15:00:21] [FINE   ] sun.rmi.loader: RMI TCP Connection(1)-192.168.115.198: name = "java.rmi.dgc.VMID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@2d49ff9a
+[2025-05-14 15:00:21] [FINER  ] sun.rmi.loader: RMI TCP Connection(1)-192.168.115.198: class "java.rmi.dgc.VMID" found via defaultLoader, defined by null
+[2025-05-14 15:00:21] [FINER  ] java.io.serialization: ObjectInputFilter ALLOWED: class java.rmi.dgc.VMID, array length: -1, nRefs: 14, depth: 2, bytes: 396, ex: n/a
+[2025-05-14 15:00:21] [FINER  ] global: RETURN DirectoryArchive(file:/C:/Java/Programare-Avansata/laborator9-homework/target/classes/)
+[2025-05-14 15:00:21] [FINE   ] sun.rmi.loader: RMI TCP Connection(1)-192.168.115.198: name = "[B", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@2d49ff9a
+[2025-05-14 15:00:21] [FINER  ] sun.rmi.loader: RMI TCP Connection(1)-192.168.115.198: class "[B" found via defaultLoader, defined by null
+[2025-05-14 15:00:21] [FINER  ] java.io.serialization: ObjectInputFilter ALLOWED: class [B, array length: -1, nRefs: 17, depth: 3, bytes: 416, ex: n/a
+[2025-05-14 15:00:21] [FINER  ] java.io.serialization: ObjectInputFilter ALLOWED: class [B, array length: 8, nRefs: 18, depth: 3, bytes: 422, ex: n/a
+[2025-05-14 15:00:21] [FINER  ] java.io.serialization: ObjectInputFilter UNDECIDED: null, array length: -1, nRefs: 19, depth: 3, bytes: 436, ex: n/a
+[2025-05-14 15:00:21] [FINER  ] sun.rmi.dgc: RMI TCP Connection(1)-192.168.115.198: vmid = 7f2ca3de0672ed08:247eb50f:196cea5be04:-7fff
+[2025-05-14 15:00:22] [FINER  ] sun.rmi.dgc: RMI TCP Connection(1)-192.168.115.198: id = [7c1536a1:196ceaacb6d:-7fff, -2683084642534855487], vmid = 7f2ca3de0672ed08:247eb50f:196cea5be04:-7fff, duration = 600000
+[2025-05-14 15:00:22] [FINER  ] sun.rmi.dgc: RMI TCP Connection(1)-192.168.115.198: add to dirty set: 7f2ca3de0672ed08:247eb50f:196cea5be04:-7fff
+[2025-05-14 15:00:22] [FINER  ] sun.rmi.transport.misc: RMI TCP Connection(1)-192.168.115.198: getting output stream
+[2025-05-14 15:00:22] [FINE   ] sun.rmi.transport.tcp: RMI TCP Connection(1)-192.168.115.198: (port 56600) op = 80
+[2025-05-14 15:00:22] [FINER  ] sun.rmi.transport.misc: RMI TCP Connection(1)-192.168.115.198: getting input stream
+[2025-05-14 15:00:22] [FINER  ] java.io.serialization: Builtin factory: null -> new: null
+[2025-05-14 15:00:22] [FINER  ] sun.rmi.transport.misc: RMI TCP Connection(1)-192.168.115.198: call dispatcher
+[2025-05-14 15:00:22] [FINER  ] sun.rmi.server.call: RMI TCP Connection(1)-192.168.115.198: [192.168.115.198: javax.management.remote.rmi.RMIJRMPServerImpl[7c1536a1:196ceaacb6d:-7fff, -2683084642534855487]: public abstract javax.management.remote.rmi.RMIConnection javax.management.remote.rmi.RMIServer.newClient(java.lang.Object) throws java.io.IOException]
+[2025-05-14 15:00:22] [FINER  ] java.io.serialization: Builtin factory: null -> new: java.lang.String;!*
+[2025-05-14 15:00:22] [FINER  ] javax.management.remote.rmi: making new client
+[2025-05-14 15:00:22] [FINER  ] javax.management.remote.rmi: no subject
+[2025-05-14 15:00:22] [FINER  ] javax.management.remote.rmi: connectionId=rmi://192.168.115.198  1
+[2025-05-14 15:00:22] [FINER  ] javax.management.remote.rmi: making new connection: rmi://192.168.115.198  1
+[2025-05-14 15:00:22] [FINER  ] javax.management.remote.misc: Creates a new ServerCommunicatorAdmin object with the timeout 120000
+[2025-05-14 15:00:22] [FINER  ] javax.management.remote.timeout: Admin: timeout=120000
+[2025-05-14 15:00:22] [FINER  ] javax.management.remote.timeout: Admin: Timestamp=1747224022016
+[2025-05-14 15:00:22] [FINER  ] javax.management.remote.timeout: Admin: remaining timeout=119999
+[2025-05-14 15:00:22] [FINER  ] javax.management.remote.misc: Waiting with timeout: 119999 ms remaining
+[2025-05-14 15:00:22] [FINER  ] sun.rmi.dgc: RMI TCP Connection(1)-192.168.115.198: strongRef = javax.management.remote.rmi.RMIConnectionImpl@3f21b97a: connectionId=rmi://192.168.115.198  1
+[2025-05-14 15:00:22] [FINER  ] sun.rmi.dgc: RMI TCP Connection(1)-192.168.115.198: add object [7c1536a1:196ceaacb6d:-7ffd, -2286380837891035417]
+[2025-05-14 15:00:22] [FINER  ] sun.rmi.server.ref: RMI TCP Connection(1)-192.168.115.198: string used for method hash: "isInstanceOf(Ljavax/management/ObjectName;Ljava/lang/String;Ljavax/security/auth/Subject;)Z"
+[2025-05-14 15:00:22] [FINER  ] sun.rmi.server.ref: RMI TCP Connection(1)-192.168.115.198: string used for method hash: "queryNames(Ljavax/management/ObjectName;Ljava/rmi/MarshalledObject;Ljavax/security/auth/Subject;)Ljava/util/Set;"
+[2025-05-14 15:00:22] [FINER  ] sun.rmi.server.ref: RMI TCP Connection(1)-192.168.115.198: string used for method hash: "createMBean(Ljava/lang/String;Ljavax/management/ObjectName;Ljava/rmi/MarshalledObject;[Ljava/lang/String;Ljavax/security/auth/Subject;)Ljavax/management/ObjectInstance;"
+[2025-05-14 15:00:22] [FINER  ] sun.rmi.server.ref: RMI TCP Connection(1)-192.168.115.198: string used for method hash: "createMBean(Ljava/lang/String;Ljavax/management/ObjectName;Ljavax/management/ObjectName;Ljava/rmi/MarshalledObject;[Ljava/lang/String;Ljavax/security/auth/Subject;)Ljavax/management/ObjectInstance;"
+[2025-05-14 15:00:22] [FINER  ] sun.rmi.server.ref: RMI TCP Connection(1)-192.168.115.198: string used for method hash: "createMBean(Ljava/lang/String;Ljavax/management/ObjectName;Ljavax/management/ObjectName;Ljavax/security/auth/Subject;)Ljavax/management/ObjectInstance;"
+[2025-05-14 15:00:22] [FINER  ] sun.rmi.server.ref: RMI TCP Connection(1)-192.168.115.198: string used for method hash: "createMBean(Ljava/lang/String;Ljavax/management/ObjectName;Ljavax/security/auth/Subject;)Ljavax/management/ObjectInstance;"
+[2025-05-14 15:00:22] [FINER  ] sun.rmi.server.ref: RMI TCP Connection(1)-192.168.115.198: string used for method hash: "unregisterMBean(Ljavax/management/ObjectName;Ljavax/security/auth/Subject;)V"
+[2025-05-14 15:00:22] [FINER  ] sun.rmi.server.ref: RMI TCP Connection(1)-192.168.115.198: string used for method hash: "getObjectInstance(Ljavax/management/ObjectName;Ljavax/security/auth/Subject;)Ljavax/management/ObjectInstance;"
+[2025-05-14 15:00:22] [FINER  ] sun.rmi.server.ref: RMI TCP Connection(1)-192.168.115.198: string used for method hash: "queryMBeans(Ljavax/management/ObjectName;Ljava/rmi/MarshalledObject;Ljavax/security/auth/Subject;)Ljava/util/Set;"
+[2025-05-14 15:00:22] [FINER  ] sun.rmi.server.ref: RMI TCP Connection(1)-192.168.115.198: string used for method hash: "getMBeanCount(Ljavax/security/auth/Subject;)Ljava/lang/Integer;"
+[2025-05-14 15:00:22] [FINER  ] sun.rmi.server.ref: RMI TCP Connection(1)-192.168.115.198: string used for method hash: "setAttributes(Ljavax/management/ObjectName;Ljava/rmi/MarshalledObject;Ljavax/security/auth/Subject;)Ljavax/management/AttributeList;"
+[2025-05-14 15:00:22] [FINER  ] sun.rmi.server.ref: RMI TCP Connection(1)-192.168.115.198: string used for method hash: "getDefaultDomain(Ljavax/security/auth/Subject;)Ljava/lang/String;"
+[2025-05-14 15:00:22] [FINER  ] sun.rmi.server.ref: RMI TCP Connection(1)-192.168.115.198: string used for method hash: "getDomains(Ljavax/security/auth/Subject;)[Ljava/lang/String;"
+[2025-05-14 15:00:22] [FINER  ] sun.rmi.server.ref: RMI TCP Connection(1)-192.168.115.198: string used for method hash: "addNotificationListener(Ljavax/management/ObjectName;Ljavax/management/ObjectName;Ljava/rmi/MarshalledObject;Ljava/rmi/MarshalledObject;Ljavax/security/auth/Subject;)V"
+[2025-05-14 15:00:22] [FINER  ] sun.rmi.server.ref: RMI TCP Connection(1)-192.168.115.198: string used for method hash: "removeNotificationListener(Ljavax/management/ObjectName;Ljavax/management/ObjectName;Ljavax/security/auth/Subject;)V"
+[2025-05-14 15:00:22] [FINER  ] sun.rmi.server.ref: RMI TCP Connection(1)-192.168.115.198: string used for method hash: "removeNotificationListener(Ljavax/management/ObjectName;Ljavax/management/ObjectName;Ljava/rmi/MarshalledObject;Ljava/rmi/MarshalledObject;Ljavax/security/auth/Subject;)V"
+[2025-05-14 15:00:22] [FINER  ] sun.rmi.server.ref: RMI TCP Connection(1)-192.168.115.198: string used for method hash: "getMBeanInfo(Ljavax/management/ObjectName;Ljavax/security/auth/Subject;)Ljavax/management/MBeanInfo;"
+[2025-05-14 15:00:22] [FINER  ] sun.rmi.server.ref: RMI TCP Connection(1)-192.168.115.198: string used for method hash: "getConnectionId()Ljava/lang/String;"
+[2025-05-14 15:00:22] [FINER  ] sun.rmi.server.ref: RMI TCP Connection(1)-192.168.115.198: string used for method hash: "invoke(Ljavax/management/ObjectName;Ljava/lang/String;Ljava/rmi/MarshalledObject;[Ljava/lang/String;Ljavax/security/auth/Subject;)Ljava/lang/Object;"
+[2025-05-14 15:00:22] [FINER  ] sun.rmi.server.ref: RMI TCP Connection(1)-192.168.115.198: string used for method hash: "isRegistered(Ljavax/management/ObjectName;Ljavax/security/auth/Subject;)Z"
+[2025-05-14 15:00:22] [FINER  ] sun.rmi.server.ref: RMI TCP Connection(1)-192.168.115.198: string used for method hash: "close()V"
+[2025-05-14 15:00:22] [FINER  ] sun.rmi.server.ref: RMI TCP Connection(1)-192.168.115.198: string used for method hash: "getAttributes(Ljavax/management/ObjectName;[Ljava/lang/String;Ljavax/security/auth/Subject;)Ljavax/management/AttributeList;"
+[2025-05-14 15:00:22] [FINER  ] sun.rmi.server.ref: RMI TCP Connection(1)-192.168.115.198: string used for method hash: "setAttribute(Ljavax/management/ObjectName;Ljava/rmi/MarshalledObject;Ljavax/security/auth/Subject;)V"
+[2025-05-14 15:00:22] [FINER  ] sun.rmi.server.ref: RMI TCP Connection(1)-192.168.115.198: string used for method hash: "getAttribute(Ljavax/management/ObjectName;Ljava/lang/String;Ljavax/security/auth/Subject;)Ljava/lang/Object;"
+[2025-05-14 15:00:22] [FINER  ] sun.rmi.server.ref: RMI TCP Connection(1)-192.168.115.198: string used for method hash: "addNotificationListeners([Ljavax/management/ObjectName;[Ljava/rmi/MarshalledObject;[Ljavax/security/auth/Subject;)[Ljava/lang/Integer;"
+[2025-05-14 15:00:22] [FINER  ] sun.rmi.server.ref: RMI TCP Connection(1)-192.168.115.198: string used for method hash: "removeNotificationListeners(Ljavax/management/ObjectName;[Ljava/lang/Integer;Ljavax/security/auth/Subject;)V"
+[2025-05-14 15:00:22] [FINER  ] sun.rmi.server.ref: RMI TCP Connection(1)-192.168.115.198: string used for method hash: "fetchNotifications(JIJ)Ljavax/management/remote/NotificationResult;"
+[2025-05-14 15:00:22] [FINER  ] javax.management.remote.rmi: new connection done: rmi://192.168.115.198  1
+[2025-05-14 15:00:22] [FINER  ] sun.rmi.transport.misc: RMI TCP Connection(1)-192.168.115.198: getting output stream
+[2025-05-14 15:00:22] [FINE   ] sun.rmi.transport.tcp: RMI TCP Connection(1)-192.168.115.198: (port 56600) op = 80
+[2025-05-14 15:00:22] [FINER  ] sun.rmi.transport.misc: RMI TCP Connection(1)-192.168.115.198: getting input stream
+[2025-05-14 15:00:22] [FINER  ] java.io.serialization: Builtin factory: null -> new: null
+[2025-05-14 15:00:22] [FINER  ] sun.rmi.transport.misc: RMI TCP Connection(1)-192.168.115.198: call dispatcher
+[2025-05-14 15:00:22] [FINER  ] sun.rmi.server.call: RMI TCP Connection(1)-192.168.115.198: [192.168.115.198: sun.rmi.transport.DGCImpl[0:0:0, 2]: java.rmi.dgc.Lease dirty(java.rmi.server.ObjID[], long, java.rmi.dgc.Lease)]
+[2025-05-14 15:00:22] [FINER  ] java.io.serialization: Builtin factory: null -> new: sun.rmi.transport.DGCImpl$2$$Lambda/0x000001e55a142380@17df9dbf
+[2025-05-14 15:00:22] [FINE   ] sun.rmi.loader: RMI TCP Connection(1)-192.168.115.198: name = "[Ljava.rmi.server.ObjID;", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@2d49ff9a
+[2025-05-14 15:00:22] [FINER  ] sun.rmi.loader: RMI TCP Connection(1)-192.168.115.198: class "[Ljava.rmi.server.ObjID;" found via defaultLoader, defined by null
+[2025-05-14 15:00:22] [FINER  ] java.io.serialization: ObjectInputFilter ALLOWED: class [Ljava.rmi.server.ObjID;, array length: -1, nRefs: 2, depth: 1, bytes: 80, ex: n/a
+[2025-05-14 15:00:22] [FINER  ] java.io.serialization: ObjectInputFilter ALLOWED: class [Ljava.rmi.server.ObjID;, array length: 1, nRefs: 3, depth: 1, bytes: 86, ex: n/a
+[2025-05-14 15:00:22] [FINE   ] sun.rmi.loader: RMI TCP Connection(1)-192.168.115.198: name = "java.rmi.server.ObjID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@2d49ff9a
+[2025-05-14 15:00:22] [FINER  ] sun.rmi.loader: RMI TCP Connection(1)-192.168.115.198: class "java.rmi.server.ObjID" found via defaultLoader, defined by null
+[2025-05-14 15:00:22] [FINER  ] java.io.serialization: ObjectInputFilter ALLOWED: class java.rmi.server.ObjID, array length: -1, nRefs: 5, depth: 2, bytes: 164, ex: n/a
+[2025-05-14 15:00:22] [FINE   ] sun.rmi.loader: RMI TCP Connection(1)-192.168.115.198: name = "java.rmi.server.UID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@2d49ff9a
+[2025-05-14 15:00:22] [FINER  ] sun.rmi.loader: RMI TCP Connection(1)-192.168.115.198: class "java.rmi.server.UID" found via defaultLoader, defined by null
+[2025-05-14 15:00:22] [FINER  ] java.io.serialization: ObjectInputFilter ALLOWED: class java.rmi.server.UID, array length: -1, nRefs: 8, depth: 3, bytes: 233, ex: n/a
+[2025-05-14 15:00:22] [FINE   ] sun.rmi.loader: RMI TCP Connection(1)-192.168.115.198: name = "java.rmi.dgc.Lease", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@2d49ff9a
+[2025-05-14 15:00:22] [FINER  ] sun.rmi.loader: RMI TCP Connection(1)-192.168.115.198: class "java.rmi.dgc.Lease" found via defaultLoader, defined by null
+[2025-05-14 15:00:22] [FINER  ] java.io.serialization: ObjectInputFilter ALLOWED: class java.rmi.dgc.Lease, array length: -1, nRefs: 11, depth: 1, bytes: 330, ex: n/a
+[2025-05-14 15:00:22] [FINER  ] java.io.serialization: ObjectInputFilter UNDECIDED: null, array length: -1, nRefs: 13, depth: 2, bytes: 395, ex: n/a
+[2025-05-14 15:00:22] [FINE   ] sun.rmi.loader: RMI TCP Connection(1)-192.168.115.198: name = "java.rmi.dgc.VMID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@2d49ff9a
+[2025-05-14 15:00:22] [FINER  ] sun.rmi.loader: RMI TCP Connection(1)-192.168.115.198: class "java.rmi.dgc.VMID" found via defaultLoader, defined by null
+[2025-05-14 15:00:22] [FINER  ] java.io.serialization: ObjectInputFilter ALLOWED: class java.rmi.dgc.VMID, array length: -1, nRefs: 14, depth: 2, bytes: 396, ex: n/a
+[2025-05-14 15:00:22] [FINE   ] sun.rmi.loader: RMI TCP Connection(1)-192.168.115.198: name = "[B", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@2d49ff9a
+[2025-05-14 15:00:22] [FINER  ] sun.rmi.loader: RMI TCP Connection(1)-192.168.115.198: class "[B" found via defaultLoader, defined by null
+[2025-05-14 15:00:22] [FINER  ] java.io.serialization: ObjectInputFilter ALLOWED: class [B, array length: -1, nRefs: 17, depth: 3, bytes: 416, ex: n/a
+[2025-05-14 15:00:22] [FINER  ] java.io.serialization: ObjectInputFilter ALLOWED: class [B, array length: 8, nRefs: 18, depth: 3, bytes: 422, ex: n/a
+[2025-05-14 15:00:22] [FINER  ] java.io.serialization: ObjectInputFilter UNDECIDED: null, array length: -1, nRefs: 19, depth: 3, bytes: 436, ex: n/a
+[2025-05-14 15:00:22] [FINER  ] sun.rmi.dgc: RMI TCP Connection(1)-192.168.115.198: vmid = 7f2ca3de0672ed08:247eb50f:196cea5be04:-7fff
+[2025-05-14 15:00:22] [FINER  ] sun.rmi.dgc: RMI TCP Connection(1)-192.168.115.198: id = [7c1536a1:196ceaacb6d:-7ffd, -2286380837891035417], vmid = 7f2ca3de0672ed08:247eb50f:196cea5be04:-7fff, duration = 600000
+[2025-05-14 15:00:22] [FINER  ] sun.rmi.dgc: RMI TCP Connection(1)-192.168.115.198: add to dirty set: 7f2ca3de0672ed08:247eb50f:196cea5be04:-7fff
+[2025-05-14 15:00:22] [FINER  ] sun.rmi.transport.misc: RMI TCP Connection(1)-192.168.115.198: getting output stream
+[2025-05-14 15:00:22] [FINE   ] sun.rmi.transport.tcp: RMI TCP Connection(1)-192.168.115.198: (port 56600) op = 84
+[2025-05-14 15:00:22] [FINE   ] sun.rmi.transport.tcp: RMI TCP Connection(1)-192.168.115.198: (port 56600) op = 80
+[2025-05-14 15:00:22] [FINER  ] sun.rmi.transport.misc: RMI TCP Connection(1)-192.168.115.198: getting input stream
+[2025-05-14 15:00:22] [FINER  ] java.io.serialization: Builtin factory: null -> new: null
+[2025-05-14 15:00:22] [FINER  ] sun.rmi.transport.misc: RMI TCP Connection(1)-192.168.115.198: call dispatcher
+[2025-05-14 15:00:22] [FINER  ] sun.rmi.server.call: RMI TCP Connection(1)-192.168.115.198: [192.168.115.198: javax.management.remote.rmi.RMIConnectionImpl[7c1536a1:196ceaacb6d:-7ffd, -2286380837891035417]: public abstract java.lang.String javax.management.remote.rmi.RMIConnection.getConnectionId() throws java.io.IOException]
+[2025-05-14 15:00:22] [FINER  ] sun.rmi.transport.misc: RMI TCP Connection(1)-192.168.115.198: getting output stream
+[2025-05-14 15:00:22] [FINE   ] sun.rmi.transport.tcp: RMI TCP Connection(1)-192.168.115.198: (port 56600) op = 80
+[2025-05-14 15:00:22] [FINER  ] sun.rmi.transport.misc: RMI TCP Connection(1)-192.168.115.198: getting input stream
+[2025-05-14 15:00:22] [FINER  ] java.io.serialization: Builtin factory: null -> new: null
+[2025-05-14 15:00:22] [FINER  ] sun.rmi.transport.misc: RMI TCP Connection(1)-192.168.115.198: call dispatcher
+[2025-05-14 15:00:22] [FINER  ] sun.rmi.server.call: RMI TCP Connection(1)-192.168.115.198: [192.168.115.198: javax.management.remote.rmi.RMIConnectionImpl[7c1536a1:196ceaacb6d:-7ffd, -2286380837891035417]: public abstract boolean javax.management.remote.rmi.RMIConnection.isInstanceOf(javax.management.ObjectName,java.lang.String,javax.security.auth.Subject) throws javax.management.InstanceNotFoundException,java.io.IOException]
+[2025-05-14 15:00:22] [FINE   ] sun.rmi.loader: RMI TCP Connection(1)-192.168.115.198: name = "javax.management.ObjectName", codebase = ""
+[2025-05-14 15:00:22] [FINER  ] sun.rmi.loader: RMI TCP Connection(1)-192.168.115.198: (thread context class loader: null)
+[2025-05-14 15:00:22] [FINER  ] sun.rmi.loader: RMI TCP Connection(1)-192.168.115.198: class "javax.management.ObjectName" found via thread context class loader (no security manager: codebase disabled), defined by null
+[2025-05-14 15:00:22] [FINE   ] javax.management.remote.rmi: connectionId=rmi://192.168.115.198  1, name=java.lang:type=OperatingSystem, className=com.sun.management.OperatingSystemMXBean
+[2025-05-14 15:00:22] [FINER  ] javax.management.remote.misc: Receive a new request.
+[2025-05-14 15:00:22] [FINER  ] javax.management.mbeanserver: name = java.lang:type=OperatingSystem
+[2025-05-14 15:00:22] [FINER  ] javax.management.remote.misc: Finish a request.
+[2025-05-14 15:00:22] [FINER  ] javax.management.remote.timeout: Admin: Timestamp=1747224022041
+[2025-05-14 15:00:22] [FINER  ] javax.management.remote.timeout: Admin: elapsed=0
+[2025-05-14 15:00:22] [FINER  ] javax.management.remote.timeout: Admin: remaining timeout=120000
+[2025-05-14 15:00:22] [FINER  ] sun.rmi.transport.misc: RMI TCP Connection(1)-192.168.115.198: getting output stream
+[2025-05-14 15:00:22] [FINER  ] javax.management.remote.misc: Waiting with timeout: 120000 ms remaining
+[2025-05-14 15:00:22] [FINE   ] sun.rmi.transport.tcp: RMI TCP Connection(1)-192.168.115.198: (port 56600) op = 80
+[2025-05-14 15:00:22] [FINER  ] sun.rmi.transport.misc: RMI TCP Connection(1)-192.168.115.198: getting input stream
+[2025-05-14 15:00:22] [FINER  ] java.io.serialization: Builtin factory: null -> new: null
+[2025-05-14 15:00:22] [FINER  ] sun.rmi.transport.misc: RMI TCP Connection(1)-192.168.115.198: call dispatcher
+[2025-05-14 15:00:22] [FINER  ] sun.rmi.server.call: RMI TCP Connection(1)-192.168.115.198: [192.168.115.198: javax.management.remote.rmi.RMIConnectionImpl[7c1536a1:196ceaacb6d:-7ffd, -2286380837891035417]: public abstract boolean javax.management.remote.rmi.RMIConnection.isInstanceOf(javax.management.ObjectName,java.lang.String,javax.security.auth.Subject) throws javax.management.InstanceNotFoundException,java.io.IOException]
+[2025-05-14 15:00:22] [FINE   ] sun.rmi.loader: RMI TCP Connection(1)-192.168.115.198: name = "javax.management.ObjectName", codebase = ""
+[2025-05-14 15:00:22] [FINER  ] sun.rmi.loader: RMI TCP Connection(1)-192.168.115.198: (thread context class loader: null)
+[2025-05-14 15:00:22] [FINER  ] sun.rmi.loader: RMI TCP Connection(1)-192.168.115.198: class "javax.management.ObjectName" found via thread context class loader (no security manager: codebase disabled), defined by null
+[2025-05-14 15:00:22] [FINE   ] javax.management.remote.rmi: connectionId=rmi://192.168.115.198  1, name=java.lang:type=OperatingSystem, className=javax.management.NotificationEmitter
+[2025-05-14 15:00:22] [FINER  ] javax.management.remote.misc: Receive a new request.
+[2025-05-14 15:00:22] [FINER  ] javax.management.mbeanserver: name = java.lang:type=OperatingSystem
+[2025-05-14 15:00:22] [FINER  ] javax.management.remote.misc: Finish a request.
+[2025-05-14 15:00:22] [FINER  ] javax.management.remote.timeout: Admin: Timestamp=1747224022045
+[2025-05-14 15:00:22] [FINER  ] sun.rmi.transport.misc: RMI TCP Connection(1)-192.168.115.198: getting output stream
+[2025-05-14 15:00:22] [FINER  ] javax.management.remote.timeout: Admin: elapsed=0
+[2025-05-14 15:00:22] [FINER  ] javax.management.remote.timeout: Admin: remaining timeout=120000
+[2025-05-14 15:00:22] [FINER  ] javax.management.remote.misc: Waiting with timeout: 120000 ms remaining
+[2025-05-14 15:00:22] [FINE   ] sun.rmi.transport.tcp: RMI TCP Connection(1)-192.168.115.198: (port 56600) op = 80
+[2025-05-14 15:00:22] [FINER  ] sun.rmi.transport.misc: RMI TCP Connection(1)-192.168.115.198: getting input stream
+[2025-05-14 15:00:22] [FINER  ] java.io.serialization: Builtin factory: null -> new: null
+[2025-05-14 15:00:22] [FINER  ] sun.rmi.transport.misc: RMI TCP Connection(1)-192.168.115.198: call dispatcher
+[2025-05-14 15:00:22] [FINER  ] sun.rmi.server.call: RMI TCP Connection(1)-192.168.115.198: [192.168.115.198: javax.management.remote.rmi.RMIConnectionImpl[7c1536a1:196ceaacb6d:-7ffd, -2286380837891035417]: public abstract java.lang.Object javax.management.remote.rmi.RMIConnection.getAttribute(javax.management.ObjectName,java.lang.String,javax.security.auth.Subject) throws javax.management.MBeanException,javax.management.AttributeNotFoundException,javax.management.InstanceNotFoundException,javax.management.ReflectionException,java.io.IOException]
+[2025-05-14 15:00:22] [FINE   ] sun.rmi.loader: RMI TCP Connection(1)-192.168.115.198: name = "javax.management.ObjectName", codebase = ""
+[2025-05-14 15:00:22] [FINER  ] sun.rmi.loader: RMI TCP Connection(1)-192.168.115.198: (thread context class loader: null)
+[2025-05-14 15:00:22] [FINER  ] sun.rmi.loader: RMI TCP Connection(1)-192.168.115.198: class "javax.management.ObjectName" found via thread context class loader (no security manager: codebase disabled), defined by null
+[2025-05-14 15:00:22] [FINE   ] javax.management.remote.rmi: connectionId=rmi://192.168.115.198  1, name=java.lang:type=OperatingSystem, attribute=ProcessCpuLoad
+[2025-05-14 15:00:22] [FINER  ] javax.management.remote.misc: Receive a new request.
+[2025-05-14 15:00:22] [FINER  ] javax.management.mbeanserver: Attribute = ProcessCpuLoad, ObjectName = java.lang:type=OperatingSystem
+[2025-05-14 15:00:22] [FINER  ] javax.management.mbeanserver: name = java.lang:type=OperatingSystem
+[2025-05-14 15:00:22] [CONFIG ] org.eclipse.persistence.session./file:/C:/Java/Programare-Avansata/laborator9-homework/target/classes/_WorldPU.metadata: The access type for the persistent class [class org.example.entity.Continent] is set to [FIELD].
+[2025-05-14 15:00:22] [CONFIG ] org.eclipse.persistence.session./file:/C:/Java/Programare-Avansata/laborator9-homework/target/classes/_WorldPU.metadata: The target entity (reference) class for the one to many mapping element [field countries] is being defaulted to: class org.example.entity.Country.
+[2025-05-14 15:00:22] [CONFIG ] org.eclipse.persistence.session./file:/C:/Java/Programare-Avansata/laborator9-homework/target/classes/_WorldPU.metadata: The access type for the persistent class [class org.example.entity.City] is set to [FIELD].
+[2025-05-14 15:00:22] [CONFIG ] org.eclipse.persistence.session./file:/C:/Java/Programare-Avansata/laborator9-homework/target/classes/_WorldPU.metadata: The target entity (reference) class for the many to one mapping element [field country] is being defaulted to: class org.example.entity.Country.
+[2025-05-14 15:00:22] [CONFIG ] org.eclipse.persistence.session./file:/C:/Java/Programare-Avansata/laborator9-homework/target/classes/_WorldPU.metadata: The access type for the persistent class [class org.example.entity.Country] is set to [FIELD].
+[2025-05-14 15:00:22] [CONFIG ] org.eclipse.persistence.session./file:/C:/Java/Programare-Avansata/laborator9-homework/target/classes/_WorldPU.metadata: The target entity (reference) class for the many to one mapping element [field continent] is being defaulted to: class org.example.entity.Continent.
+[2025-05-14 15:00:22] [CONFIG ] org.eclipse.persistence.session./file:/C:/Java/Programare-Avansata/laborator9-homework/target/classes/_WorldPU.metadata: The target entity (reference) class for the one to many mapping element [field cities] is being defaulted to: class org.example.entity.City.
+[2025-05-14 15:00:22] [CONFIG ] org.eclipse.persistence.session./file:/C:/Java/Programare-Avansata/laborator9-homework/target/classes/_WorldPU.metadata: The alias name for the entity class [class org.example.entity.Continent] is being defaulted to: Continent.
+[2025-05-14 15:00:22] [CONFIG ] org.eclipse.persistence.session./file:/C:/Java/Programare-Avansata/laborator9-homework/target/classes/_WorldPU.metadata: The column name for element [id] is being defaulted to: ID.
+[2025-05-14 15:00:22] [CONFIG ] org.eclipse.persistence.session./file:/C:/Java/Programare-Avansata/laborator9-homework/target/classes/_WorldPU.metadata: The alias name for the entity class [class org.example.entity.City] is being defaulted to: City.
+[2025-05-14 15:00:22] [CONFIG ] org.eclipse.persistence.session./file:/C:/Java/Programare-Avansata/laborator9-homework/target/classes/_WorldPU.metadata: The column name for element [id] is being defaulted to: ID.
+[2025-05-14 15:00:22] [CONFIG ] org.eclipse.persistence.session./file:/C:/Java/Programare-Avansata/laborator9-homework/target/classes/_WorldPU.metadata: The alias name for the entity class [class org.example.entity.Country] is being defaulted to: Country.
+[2025-05-14 15:00:22] [CONFIG ] org.eclipse.persistence.session./file:/C:/Java/Programare-Avansata/laborator9-homework/target/classes/_WorldPU.metadata: The column name for element [id] is being defaulted to: ID.
+[2025-05-14 15:00:22] [CONFIG ] org.eclipse.persistence.session./file:/C:/Java/Programare-Avansata/laborator9-homework/target/classes/_WorldPU.metadata: The primary key column name for the mapping element [field country] is being defaulted to: ID.
+[2025-05-14 15:00:22] [CONFIG ] org.eclipse.persistence.session./file:/C:/Java/Programare-Avansata/laborator9-homework/target/classes/_WorldPU.metadata: The primary key column name for the mapping element [field continent] is being defaulted to: ID.
+[2025-05-14 15:00:22] [INFO   ] org.example.PersistenceManager: EntityManagerFactory created in 501 ms
+[2025-05-14 15:00:22] [FINER  ] javax.management.remote.misc: Finish a request.
+[2025-05-14 15:00:22] [FINER  ] javax.management.remote.timeout: Admin: Timestamp=1747224022250
+[2025-05-14 15:00:22] [FINER  ] javax.management.remote.timeout: Admin: elapsed=0
+[2025-05-14 15:00:22] [FINER  ] sun.rmi.transport.misc: RMI TCP Connection(1)-192.168.115.198: getting output stream
+[2025-05-14 15:00:22] [FINER  ] javax.management.remote.timeout: Admin: remaining timeout=120000
+[2025-05-14 15:00:22] [FINER  ] javax.management.remote.misc: Waiting with timeout: 120000 ms remaining
+[2025-05-14 15:00:22] [FINE   ] sun.rmi.transport.tcp: RMI TCP Connection(1)-192.168.115.198: (port 56600) op = 80
+[2025-05-14 15:00:22] [FINER  ] sun.rmi.transport.misc: RMI TCP Connection(1)-192.168.115.198: getting input stream
+[2025-05-14 15:00:22] [FINER  ] java.io.serialization: Builtin factory: null -> new: null
+[2025-05-14 15:00:22] [FINER  ] sun.rmi.transport.misc: RMI TCP Connection(1)-192.168.115.198: call dispatcher
+[2025-05-14 15:00:22] [FINER  ] sun.rmi.server.call: RMI TCP Connection(1)-192.168.115.198: [192.168.115.198: javax.management.remote.rmi.RMIConnectionImpl[7c1536a1:196ceaacb6d:-7ffd, -2286380837891035417]: public abstract boolean javax.management.remote.rmi.RMIConnection.isInstanceOf(javax.management.ObjectName,java.lang.String,javax.security.auth.Subject) throws javax.management.InstanceNotFoundException,java.io.IOException]
+[2025-05-14 15:00:22] [FINE   ] sun.rmi.loader: RMI TCP Connection(1)-192.168.115.198: name = "javax.management.ObjectName", codebase = ""
+[2025-05-14 15:00:22] [FINER  ] sun.rmi.loader: RMI TCP Connection(1)-192.168.115.198: (thread context class loader: null)
+[2025-05-14 15:00:22] [FINER  ] sun.rmi.loader: RMI TCP Connection(1)-192.168.115.198: class "javax.management.ObjectName" found via thread context class loader (no security manager: codebase disabled), defined by null
+[2025-05-14 15:00:22] [FINE   ] javax.management.remote.rmi: connectionId=rmi://192.168.115.198  1, name=java.lang:type=Memory, className=java.lang.management.MemoryMXBean
+[2025-05-14 15:00:22] [FINER  ] javax.management.remote.misc: Receive a new request.
+[2025-05-14 15:00:22] [FINER  ] javax.management.mbeanserver: name = java.lang:type=Memory
+[2025-05-14 15:00:22] [FINER  ] javax.management.remote.misc: Finish a request.
+[2025-05-14 15:00:22] [FINER  ] javax.management.remote.timeout: Admin: Timestamp=1747224022254
+[2025-05-14 15:00:22] [FINER  ] sun.rmi.transport.misc: RMI TCP Connection(1)-192.168.115.198: getting output stream
+[2025-05-14 15:00:22] [FINER  ] javax.management.remote.timeout: Admin: elapsed=0
+[2025-05-14 15:00:22] [FINER  ] javax.management.remote.timeout: Admin: remaining timeout=120000
+[2025-05-14 15:00:22] [FINER  ] javax.management.remote.misc: Waiting with timeout: 120000 ms remaining
+[2025-05-14 15:00:22] [FINE   ] sun.rmi.transport.tcp: RMI TCP Connection(1)-192.168.115.198: (port 56600) op = 80
+[2025-05-14 15:00:22] [FINER  ] sun.rmi.transport.misc: RMI TCP Connection(1)-192.168.115.198: getting input stream
+[2025-05-14 15:00:22] [FINER  ] java.io.serialization: Builtin factory: null -> new: null
+[2025-05-14 15:00:22] [FINER  ] sun.rmi.transport.misc: RMI TCP Connection(1)-192.168.115.198: call dispatcher
+[2025-05-14 15:00:22] [FINER  ] sun.rmi.server.call: RMI TCP Connection(1)-192.168.115.198: [192.168.115.198: javax.management.remote.rmi.RMIConnectionImpl[7c1536a1:196ceaacb6d:-7ffd, -2286380837891035417]: public abstract boolean javax.management.remote.rmi.RMIConnection.isInstanceOf(javax.management.ObjectName,java.lang.String,javax.security.auth.Subject) throws javax.management.InstanceNotFoundException,java.io.IOException]
+[2025-05-14 15:00:22] [FINE   ] sun.rmi.loader: RMI TCP Connection(1)-192.168.115.198: name = "javax.management.ObjectName", codebase = ""
+[2025-05-14 15:00:22] [FINER  ] sun.rmi.loader: RMI TCP Connection(1)-192.168.115.198: (thread context class loader: null)
+[2025-05-14 15:00:22] [FINER  ] sun.rmi.loader: RMI TCP Connection(1)-192.168.115.198: class "javax.management.ObjectName" found via thread context class loader (no security manager: codebase disabled), defined by null
+[2025-05-14 15:00:22] [FINE   ] javax.management.remote.rmi: connectionId=rmi://192.168.115.198  1, name=java.lang:type=Memory, className=javax.management.NotificationEmitter
+[2025-05-14 15:00:22] [FINER  ] javax.management.remote.misc: Receive a new request.
+[2025-05-14 15:00:22] [FINER  ] javax.management.mbeanserver: name = java.lang:type=Memory
+[2025-05-14 15:00:22] [FINER  ] javax.management.remote.misc: Finish a request.
+[2025-05-14 15:00:22] [FINER  ] javax.management.remote.timeout: Admin: Timestamp=1747224022256
+[2025-05-14 15:00:22] [FINER  ] javax.management.remote.timeout: Admin: elapsed=0
+[2025-05-14 15:00:22] [FINER  ] sun.rmi.transport.misc: RMI TCP Connection(1)-192.168.115.198: getting output stream
+[2025-05-14 15:00:22] [FINER  ] javax.management.remote.timeout: Admin: remaining timeout=120000
+[2025-05-14 15:00:22] [FINER  ] javax.management.remote.misc: Waiting with timeout: 120000 ms remaining
+[2025-05-14 15:00:22] [FINE   ] sun.rmi.transport.tcp: RMI TCP Connection(1)-192.168.115.198: (port 56600) op = 80
+[2025-05-14 15:00:22] [FINER  ] sun.rmi.transport.misc: RMI TCP Connection(1)-192.168.115.198: getting input stream
+[2025-05-14 15:00:22] [FINER  ] java.io.serialization: Builtin factory: null -> new: null
+[2025-05-14 15:00:22] [FINER  ] sun.rmi.transport.misc: RMI TCP Connection(1)-192.168.115.198: call dispatcher
+[2025-05-14 15:00:22] [FINER  ] sun.rmi.server.call: RMI TCP Connection(1)-192.168.115.198: [192.168.115.198: javax.management.remote.rmi.RMIConnectionImpl[7c1536a1:196ceaacb6d:-7ffd, -2286380837891035417]: public abstract java.lang.Object javax.management.remote.rmi.RMIConnection.getAttribute(javax.management.ObjectName,java.lang.String,javax.security.auth.Subject) throws javax.management.MBeanException,javax.management.AttributeNotFoundException,javax.management.InstanceNotFoundException,javax.management.ReflectionException,java.io.IOException]
+[2025-05-14 15:00:22] [FINE   ] sun.rmi.loader: RMI TCP Connection(1)-192.168.115.198: name = "javax.management.ObjectName", codebase = ""
+[2025-05-14 15:00:22] [FINER  ] sun.rmi.loader: RMI TCP Connection(1)-192.168.115.198: (thread context class loader: null)
+[2025-05-14 15:00:22] [FINER  ] sun.rmi.loader: RMI TCP Connection(1)-192.168.115.198: class "javax.management.ObjectName" found via thread context class loader (no security manager: codebase disabled), defined by null
+[2025-05-14 15:00:22] [FINE   ] javax.management.remote.rmi: connectionId=rmi://192.168.115.198  1, name=java.lang:type=Memory, attribute=HeapMemoryUsage
+[2025-05-14 15:00:22] [FINER  ] javax.management.remote.misc: Receive a new request.
+[2025-05-14 15:00:22] [FINER  ] javax.management.mbeanserver: Attribute = HeapMemoryUsage, ObjectName = java.lang:type=Memory
+[2025-05-14 15:00:22] [FINER  ] javax.management.mbeanserver: name = java.lang:type=Memory
+[2025-05-14 15:00:22] [FINER  ] javax.management.remote.misc: Finish a request.
+[2025-05-14 15:00:22] [FINER  ] javax.management.remote.timeout: Admin: Timestamp=1747224022260
+[2025-05-14 15:00:22] [FINER  ] javax.management.remote.timeout: Admin: elapsed=0
+[2025-05-14 15:00:22] [FINER  ] javax.management.remote.timeout: Admin: remaining timeout=120000
+[2025-05-14 15:00:22] [FINER  ] javax.management.remote.misc: Waiting with timeout: 120000 ms remaining
+[2025-05-14 15:00:22] [FINER  ] sun.rmi.transport.misc: RMI TCP Connection(1)-192.168.115.198: getting output stream
+[2025-05-14 15:00:22] [FINE   ] sun.rmi.transport.tcp: RMI TCP Connection(1)-192.168.115.198: (port 56600) op = 80
+[2025-05-14 15:00:22] [FINER  ] sun.rmi.transport.misc: RMI TCP Connection(1)-192.168.115.198: getting input stream
+[2025-05-14 15:00:22] [FINER  ] java.io.serialization: Builtin factory: null -> new: null
+[2025-05-14 15:00:22] [FINER  ] sun.rmi.transport.misc: RMI TCP Connection(1)-192.168.115.198: call dispatcher
+[2025-05-14 15:00:22] [FINER  ] sun.rmi.server.call: RMI TCP Connection(1)-192.168.115.198: [192.168.115.198: javax.management.remote.rmi.RMIConnectionImpl[7c1536a1:196ceaacb6d:-7ffd, -2286380837891035417]: public abstract java.lang.Object javax.management.remote.rmi.RMIConnection.getAttribute(javax.management.ObjectName,java.lang.String,javax.security.auth.Subject) throws javax.management.MBeanException,javax.management.AttributeNotFoundException,javax.management.InstanceNotFoundException,javax.management.ReflectionException,java.io.IOException]
+[2025-05-14 15:00:22] [FINE   ] sun.rmi.loader: RMI TCP Connection(1)-192.168.115.198: name = "javax.management.ObjectName", codebase = ""
+[2025-05-14 15:00:22] [FINER  ] sun.rmi.loader: RMI TCP Connection(1)-192.168.115.198: (thread context class loader: null)
+[2025-05-14 15:00:22] [FINER  ] sun.rmi.loader: RMI TCP Connection(1)-192.168.115.198: class "javax.management.ObjectName" found via thread context class loader (no security manager: codebase disabled), defined by null
+[2025-05-14 15:00:22] [FINE   ] javax.management.remote.rmi: connectionId=rmi://192.168.115.198  1, name=java.lang:type=Memory, attribute=HeapMemoryUsage
+[2025-05-14 15:00:22] [FINER  ] javax.management.remote.misc: Receive a new request.
+[2025-05-14 15:00:22] [FINER  ] javax.management.mbeanserver: Attribute = HeapMemoryUsage, ObjectName = java.lang:type=Memory
+[2025-05-14 15:00:22] [FINER  ] javax.management.mbeanserver: name = java.lang:type=Memory
+[2025-05-14 15:00:22] [FINER  ] javax.management.remote.misc: Finish a request.
+[2025-05-14 15:00:22] [FINER  ] javax.management.remote.timeout: Admin: Timestamp=1747224022267
+[2025-05-14 15:00:22] [FINER  ] sun.rmi.transport.misc: RMI TCP Connection(1)-192.168.115.198: getting output stream
+[2025-05-14 15:00:22] [FINER  ] javax.management.remote.timeout: Admin: elapsed=0
+[2025-05-14 15:00:22] [FINER  ] javax.management.remote.timeout: Admin: remaining timeout=120000
+[2025-05-14 15:00:22] [FINER  ] javax.management.remote.misc: Waiting with timeout: 120000 ms remaining
+[2025-05-14 15:00:22] [INFO   ] org.eclipse.persistence.session./file:/C:/Java/Programare-Avansata/laborator9-homework/target/classes/_WorldPU: EclipseLink, version: Eclipse Persistence Services - 4.0.2.v202306161219
+[2025-05-14 15:00:22] [FINER  ] javax.management.misc: Building MBeanInfo for oracle.jdbc.driver.OracleDiagnosabilityMBean
+[2025-05-14 15:00:22] [FINER  ] javax.management.mbeanserver: ObjectName = com.oracle.jdbc:type=diagnosability,name=jdk.internal.loader.ClassLoaders$AppClassLoader@3fee733d
+[2025-05-14 15:00:22] [FINER  ] javax.management.mbeanserver: name = com.oracle.jdbc:type=diagnosability,name=jdk.internal.loader.ClassLoaders$AppClassLoader@3fee733d
+[2025-05-14 15:00:22] [FINER  ] javax.management.mbeanserver: Send create notification of object com.oracle.jdbc:name=jdk.internal.loader.ClassLoaders$AppClassLoader@3fee733d,type=diagnosability
+[2025-05-14 15:00:22] [FINER  ] javax.management.mbeanserver: JMX.mbean.registered com.oracle.jdbc:type=diagnosability,name=jdk.internal.loader.ClassLoaders$AppClassLoader@3fee733d
+[2025-05-14 15:00:22] [FINE   ] org.eclipse.persistence.session./file:/C:/Java/Programare-Avansata/laborator9-homework/target/classes/_WorldPU.connection: Detected database platform: org.eclipse.persistence.platform.database.oracle.Oracle11Platform
+[2025-05-14 15:00:22] [FINE   ] org.eclipse.persistence.session./file:/C:/Java/Programare-Avansata/laborator9-homework/target/classes/_WorldPU.connection: connecting(DatabaseLogin(
+	platform=>Oracle11Platform
+	user name=> "lab8java"
+	datasource URL=> "jdbc:oracle:thin:@localhost:1521:XE"
+))
+[2025-05-14 15:00:22] [CONFIG ] org.eclipse.persistence.session./file:/C:/Java/Programare-Avansata/laborator9-homework/target/classes/_WorldPU.connection: Connected: jdbc:oracle:thin:@localhost:1521:XE
+	User: LAB8JAVA
+	Database: Oracle  Version: Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production
+	Driver: Oracle JDBC driver  Version: 21.5.0.0.0
+[2025-05-14 15:00:22] [FINE   ] org.eclipse.persistence.session./file:/C:/Java/Programare-Avansata/laborator9-homework/target/classes/_WorldPU.connection: /file:/C:/Java/Programare-Avansata/laborator9-homework/target/classes/_WorldPU login successful
+[2025-05-14 15:00:22] [CONFIG ] org.example.repository.ContinentRepository: Initializat repository pentru entitatea Continent
+[2025-05-14 15:00:22] [CONFIG ] org.example.repository.CountryRepository: Initializat repository pentru entitatea Country
+[2025-05-14 15:00:22] [CONFIG ] org.example.repository.CityRepository: Initializat repository pentru entitatea City
+[2025-05-14 15:00:22] [FINE   ] org.example.repository.ContinentRepository: Căutare entitate Continent cu ID 1
+[2025-05-14 15:00:22] [FINE   ] org.eclipse.persistence.session./file:/C:/Java/Programare-Avansata/laborator9-homework/target/classes/_WorldPU.sql: SELECT ID, name FROM continents WHERE (ID = ?)
+	bind => [1]
+[2025-05-14 15:00:22] [FINER  ] java.io.serialization: Builtin factory: null -> new: null
+[2025-05-14 15:00:22] [FINER  ] java.io.serialization: Builtin factory: null -> new: null
+[2025-05-14 15:00:22] [FINER  ] java.io.serialization: Builtin factory: null -> new: null
+[2025-05-14 15:00:22] [FINER  ] java.io.serialization: Builtin factory: null -> new: null
+[2025-05-14 15:00:22] [FINER  ] java.io.serialization: Builtin factory: null -> new: null
+[2025-05-14 15:00:22] [INFO   ] org.example.repository.ContinentRepository: Entitate găsită: org.example.entity.Continent@610db97e
+[2025-05-14 15:00:22] [INFO   ] org.example.Main: Continent găsit: Europe
+[2025-05-14 15:00:22] [INFO   ] org.example.Main: Țări din Europa:
+[2025-05-14 15:00:22] [FINER  ] org.example.repository.CountryRepository: ENTRY 1
+[2025-05-14 15:00:22] [FINE   ] org.eclipse.persistence.session./file:/C:/Java/Programare-Avansata/laborator9-homework/target/classes/_WorldPU.sql: SELECT ID, name, continent_id FROM countries WHERE (continent_id = ?)
+	bind => [1]
+[2025-05-14 15:00:22] [INFO   ] org.example.repository.CountryRepository: Găsite 3 țări pentru continentId 1
+[2025-05-14 15:00:22] [FINER  ] org.example.repository.CountryRepository: RETURN
+[2025-05-14 15:00:22] [INFO   ] org.example.Main: - Romania (ID: 1)
+[2025-05-14 15:00:22] [INFO   ] org.example.Main: - Germany (ID: 2)
+[2025-05-14 15:00:22] [INFO   ] org.example.Main: - France (ID: 3)
+[2025-05-14 15:00:22] [INFO   ] org.example.Main: Orașe capitale:
+[2025-05-14 15:00:22] [FINE   ] org.eclipse.persistence.session./file:/C:/Java/Programare-Avansata/laborator9-homework/target/classes/_WorldPU.sql: SELECT ID, is_capital, latitude, longitude, name, country_id FROM cities WHERE (is_capital = ?)
+	bind => [true]
+[2025-05-14 15:00:22] [INFO   ] org.example.repository.CityRepository: Executed findCapitals in 7 ms
+[2025-05-14 15:00:22] [INFO   ] org.example.Main: - Berlin, Germany
+[2025-05-14 15:00:22] [INFO   ] org.example.Main: - Bucharest, Romania
+[2025-05-14 15:00:22] [INFO   ] org.example.Main: - Paris, France
+[2025-05-14 15:00:22] [FINE   ] org.example.repository.CityRepository: Căutare entitate City cu ID 1
+[2025-05-14 15:00:22] [FINE   ] org.eclipse.persistence.session./file:/C:/Java/Programare-Avansata/laborator9-homework/target/classes/_WorldPU.sql: SELECT ID, is_capital, latitude, longitude, name, country_id FROM cities WHERE (ID = ?)
+	bind => [1]
+[2025-05-14 15:00:22] [FINE   ] org.eclipse.persistence.session./file:/C:/Java/Programare-Avansata/laborator9-homework/target/classes/_WorldPU.sql: SELECT ID, name, continent_id FROM countries WHERE (ID = ?)
+	bind => [5]
+[2025-05-14 15:00:22] [FINE   ] org.eclipse.persistence.session./file:/C:/Java/Programare-Avansata/laborator9-homework/target/classes/_WorldPU.sql: SELECT ID, name FROM continents WHERE (ID = ?)
+	bind => [2]
+[2025-05-14 15:00:22] [INFO   ] org.example.repository.CityRepository: Entitate găsită: org.example.entity.City@6a1ebcff
+[2025-05-14 15:00:22] [FINE   ] org.eclipse.persistence.session./file:/C:/Java/Programare-Avansata/laborator9-homework/target/classes/_WorldPU.sql: SELECT t0.ID, t0.is_capital, t0.latitude, t0.longitude, t0.name, t0.country_id FROM cities t0, countries t1 WHERE (((t0.name = ?) AND (t1.name = ?)) AND (t1.ID = t0.country_id))
+	bind => [Paris, France]
+[2025-05-14 15:00:22] [INFO   ] org.example.repository.CityRepository: Executed findByNameAndCountry in 2 ms
+[2025-05-14 15:00:22] [INFO   ] org.example.repository.CityRepository: Calculated distance in 0 ms
+[2025-05-14 15:00:22] [INFO   ] org.example.Main: Distanța FakeCity1 - Paris: 10981.44 km
+[2025-05-14 15:00:22] [FINE   ] org.eclipse.persistence.session./file:/C:/Java/Programare-Avansata/laborator9-homework/target/classes/_WorldPU.connection: disconnect
+[2025-05-14 15:00:22] [FINE   ] org.eclipse.persistence.session./file:/C:/Java/Programare-Avansata/laborator9-homework/target/classes/_WorldPU.connection: /file:/C:/Java/Programare-Avansata/laborator9-homework/target/classes/_WorldPU logout successful
+[2025-05-14 15:00:22] [FINE   ] org.eclipse.persistence.session./file:/C:/Java/Programare-Avansata/laborator9-homework/target/classes/_WorldPU.connection: disconnect
+[2025-05-14 15:00:22] [INFO   ] org.example.PersistenceManager: EntityManagerFactory closed
+[2025-05-14 15:00:22] [INFO   ] org.example.Main: Aplicația s-a închis
